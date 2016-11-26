@@ -1,93 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-   
-    <title>|Автосервис|</title>
-
-    <!-- Bootstrap core CSS -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
-    <!-- Custom styles for this template 
-    <link href="starter-template.css" rel="stylesheet">-->
-
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-	<nav class="navbar navbar-default" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">SravniService.ru</a>
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#about">О сервисе</a></li>
-            <li><a href="#contact">Контакты</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-		<div class="row">
-			 {% for sto in site.data.sto %}
-			<div class="col-md-8">
-  			<h1>Автосервис: {{sto.name}}</h1>	
-  			<div>
-  			<dl class="dl-horizontal">
-  				<dt>Адрес</dt> <dd>{{sto.adress}}</dd>
-  				<dt>Телефон</dt> <dd>850000000</dd>
-  				<dt>Время работы</dt> <dd>{{sto.time1}}</dd>
-  				<dt>Работы в выходные</dt> <dd>{{sto.time2}}</dd>
-  				<dt>Категория сервиса</dt> <dd>Официальный</dd>
-  				<dt>Тип сервиса</dt> <dd>Мультибрендовый</dd>
-  				<dt>Обслуживание марок</dt> <dd>{{sto.marki}}</dd>
-  			
-  			</dl>				
-  			</div>				
-  			<!--вывод карты-->
-  		<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2243.9832359435986!2d37.706238!3d55.776163!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1479849209428" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-  				
-  			</div>
-  		
- 		 	<div class="col-md-4"> 	
- 		 		<h4>Другие сервисы в этом райне</h4>
- 		 		<ul>
- 		 			<li>Сервис 1</li>
- 		 			<li>Сервис 2</li>
- 		 			<li>Сервис 3</li>
- 		 			<li>Сервис 4</li>
- 		 			<li>Сервис 5</li>
- 		 		</ul>
- 		 	</div>
-	
-		</div>
-		
-		<div class="row">
-			<div>
-				<h2>Отзывы о {{sto.name}}</h2>
-				<div>
-				  Отзывово пока нет
-				</div>
-			</div>
-				
-		</div>
-		
-    </div>
+---
+layout: default
+---
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-   <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  </body>
-</html>
+ {% for sto in site.data.sto %}
+<h2>Автосервис: <a href="{{ site.baseurl }}/1">"{{sto.name}}"</a></h2>
+<p>Адресс: {{sto.adress}}</p>
+<p>Марки: {{sto.marki}}</p>
+<p>Время работы: <b>{{sto.time1}}</b></p>
+<p>Работа в выходные: <b>{{sto.time2}}</b></p>
+ 
+
+
+{% endfor %}
+
+      

@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="row">
+			 {% for sto in site.data.sto %}
+			<div class="col-md-8">
+  			<h1>Автосервис: {{sto.name}}</h1>	
+  			<div>
+  			<dl class="dl-horizontal">
+  				<dt>Адрес</dt> <dd>{{sto.adress}}</dd>
+  				<dt>Телефон</dt> <dd>850000000</dd>
+  				<dt>Время работы</dt> <dd>{{sto.time1}}</dd>
+  				<dt>Работы в выходные</dt> <dd>{{sto.time2}}</dd>
+  				<dt>Категория сервиса</dt> <dd>Официальный</dd>
+  				<dt>Тип сервиса</dt> <dd>Мультибрендовый</dd>
+  				<dt>Обслуживание марок</dt> <dd>{{sto.marki}}</dd>
+  			
+  			</dl>				
+  			</div>				
+  			<!--вывод карты-->
+  		<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2243.9832359435986!2d37.706238!3d55.776163!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1479849209428" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  				
+  			</div>
+  		
+ 		 	<div class="col-md-4"> 	
+ 		 		<h4>Другие сервисы в этом райне</h4>
+ 		 		<ul>
+ 		 			<li>Сервис 1</li>
+ 		 			<li>Сервис 2</li>
+ 		 			<li>Сервис 3</li>
+ 		 			<li>Сервис 4</li>
+ 		 			<li>Сервис 5</li>
+ 		 		</ul>
+ 		 	</div>
+	
+		</div>
+		
+		<div class="row">
+			<div>
+				<h2>Отзывы о {{sto.name}}</h2>
+				<div>
+				  Отзывово пока нет
+				</div>
+		</div>
+</div>
