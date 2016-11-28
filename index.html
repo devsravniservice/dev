@@ -1,16 +1,10 @@
 ---
 layout: default
 ---
-
- {% for sto in site.data.sto %}
+{% for sto in site.data.sto %}
+<div class="row">
 <h2>Автосервис: <a href="{{ site.baseurl }}/service/{{sto.name_en}}">{{sto.name}}</a></h2>
 <p>Адресс: {{sto.adress}}</p>
 <p>Марки: {{sto.marki}}</p>
-<p>Время работы: <b>{{sto.time1}}</b></p>
-<p>Работа в выходные: <b>{{sto.time2}}</b></p>
- 
-
-
+</div>
 {% endfor %}
-
-      
