@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: service
 ---
 ---
-layout: default
+layout: service
 ---
 ---
-layout: default
+layout: service
 ---
