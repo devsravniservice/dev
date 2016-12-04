@@ -1,9 +1,9 @@
 ---
-default
+layout: default
 ---
 ---
-default
+layout: default
 ---
 ---
-default
+layout: default
 ---

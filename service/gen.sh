@@ -1,100 +1,100 @@
-echo "---\ndefault\n---" >> Avtodrom.md 
-echo "---\ndefault\n---" >> AvtoMaks.md 
-echo "---\ndefault\n---" >> Avtomojka_na_Koptevskoj_73a.md 
-echo "---\ndefault\n---" >> A_&_Ja.md 
-echo "---\ndefault\n---" >> AAA_Smart.md 
-echo "---\ndefault\n---" >> ABIKAR.md 
-echo "---\ndefault\n---" >> Abris-Ama.md 
-echo "---\ndefault\n---" >> SG-Motors_na_Jugo-Zapade.md 
-echo "---\ndefault\n---" >> SG-Motors_na_VDNH.md 
-echo "---\ndefault\n---" >> ABSOLJuT.md 
-echo "---\ndefault\n---" >> ABS-Motors.md 
-echo "---\ndefault\n---" >> Avalon.md 
-echo "---\ndefault\n---" >> Avangard.md 
-echo "---\ndefault\n---" >> Avanti_Motorc.md 
-echo "---\ndefault\n---" >> Avatar.md 
-echo "---\ndefault\n---" >> AVD_servis.md 
-echo "---\ndefault\n---" >> Avers_XXI.md 
-echo "---\ndefault\n---" >> Avrora.md 
-echo "---\ndefault\n---" >> Avto_Gaz.md 
-echo "---\ndefault\n---" >> Avto_globus.md 
-echo "---\ndefault\n---" >> Avto_Grand.md 
-echo "---\ndefault\n---" >> Avto_Djel.md 
-echo "---\ndefault\n---" >> Avto_Leon_Art.md 
-echo "---\ndefault\n---" >> Avto_Lider_OOO.md 
-echo "---\ndefault\n---" >> Avto_Prestizh.md 
-echo "---\ndefault\n---" >> Avto_Randevu.md 
-echo "---\ndefault\n---" >> Avto_spec_pomoshh_OOO.md 
-echo "---\ndefault\n---" >> Avto_Status.md 
-echo "---\ndefault\n---" >> AVTO_TehKompleks_OOO.md 
-echo "---\ndefault\n---" >> Avto_Shik.md 
-echo "---\ndefault\n---" >> Avto_7777.md 
-echo "---\ndefault\n---" >> AvtoAljansVostok.md 
-echo "---\ndefault\n---" >> Avtoaljans.md 
-echo "---\ndefault\n---" >> Avtoban-Motors.md 
-echo "---\ndefault\n---" >> AvtoBoks.md 
-echo "---\ndefault\n---" >> Avtobot.md 
-echo "---\ndefault\n---" >> Avtobumer.md 
-echo "---\ndefault\n---" >> AVTOBUNKER.md 
-echo "---\ndefault\n---" >> Avtovelt-motors.md 
-echo "---\ndefault\n---" >> Avtovest-Servis.md 
-echo "---\ndefault\n---" >> AvtoVirazh.md 
-echo "---\ndefault\n---" >> AvtoVito-Zapad.md 
-echo "---\ndefault\n---" >> AvtoVito-Jug.md 
-echo "---\ndefault\n---" >> AvtoVito-Butovo.md 
-echo "---\ndefault\n---" >> AvtoVi.md 
-echo "---\ndefault\n---" >> Avtogidrosistemy.md 
-echo "---\ndefault\n---" >> AVTOGLOBUS.md 
-echo "---\ndefault\n---" >> Avtogran.md 
-echo "---\ndefault\n---" >> AVTOGROVER.md 
-echo "---\ndefault\n---" >> Avtodar.md 
-echo "---\ndefault\n---" >> Avtodar-servis.md 
-echo "---\ndefault\n---" >> AvtoDa.md 
-echo "---\ndefault\n---" >> Avtodeloff.md 
-echo "---\ndefault\n---" >> AvtoDiagnost.md 
-echo "---\ndefault\n---" >> AvtoDizajn.md 
-echo "---\ndefault\n---" >> Avtodizajn.md 
-echo "---\ndefault\n---" >> AVTODOKTOR.md 
-echo "---\ndefault\n---" >> Avtodok.md 
-echo "---\ndefault\n---" >> Avtodok.md 
-echo "---\ndefault\n---" >> Avtodok.md 
-echo "---\ndefault\n---" >> AvtoDok-S.md 
-echo "---\ndefault\n---" >> AVTODOR.md 
-echo "---\ndefault\n---" >> Avtozashhita.md 
-echo "---\ndefault\n---" >> Avtokarat.md 
-echo "---\ndefault\n---" >> Avtoklever.md 
-echo "---\ndefault\n---" >> Avtoklub_8.md 
-echo "---\ndefault\n---" >> AvtoKlub.md 
-echo "---\ndefault\n---" >> Avtokompleks_na_ul_Kirova_19_st1.md 
-echo "---\ndefault\n---" >> Avtokredo_Pljus.md 
-echo "---\ndefault\n---" >> AVTOKRUG.md 
-echo "---\ndefault\n---" >> Avtokuzov+.md 
-echo "---\ndefault\n---" >> Avtolegion.md 
-echo "---\ndefault\n---" >> AVTOLEKS.md 
-echo "---\ndefault\n---" >> Avtolik.md 
-echo "---\ndefault\n---" >> AvtoLjuks.md 
-echo "---\ndefault\n---" >> Avtoljuks-Ronam.md 
-echo "---\ndefault\n---" >> Avtomagnat.md 
-echo "---\ndefault\n---" >> Avtomaksimum.md 
-echo "---\ndefault\n---" >> AvtoMaks.md 
-echo "---\ndefault\n---" >> AvtoMaks.md 
-echo "---\ndefault\n---" >> Avtomanija24.md 
-echo "---\ndefault\n---" >> Avtomarket_2000.md 
-echo "---\ndefault\n---" >> Avtomasterskaja_na_ul_Vatutina_2.md 
-echo "---\ndefault\n---" >> Avtomasterskaja_na_ul_Stepana_Razina_7_st1.md 
-echo "---\ndefault\n---" >> Avtomasterskaja_na_Urzhumskoj_1/3_st2.md 
-echo "---\ndefault\n---" >> Avtomaster.md 
-echo "---\ndefault\n---" >> Avtomaster.md 
-echo "---\ndefault\n---" >> Avtomaster.md 
-echo "---\ndefault\n---" >> Avtomaster-14.md 
-echo "---\ndefault\n---" >> Avtomehanika-dzhip.md 
-echo "---\ndefault\n---" >> Avtomehanik.md 
-echo "---\ndefault\n---" >> Avtomir_2000.md 
-echo "---\ndefault\n---" >> Avtomir.md 
-echo "---\ndefault\n---" >> AvtoMytishhi_OOO.md 
-echo "---\ndefault\n---" >> AVTONAVTIKA.md 
-echo "---\ndefault\n---" >> AVTONOM.md 
-echo "---\ndefault\n---" >> AVTOPARITET.md 
-echo "---\ndefault\n---" >> Avtopark.md 
-echo "---\ndefault\n---" >> AVTOPEGAS-21.md 
+echo "---\nlayout: default\n---" >> Avtodrom.md 
+echo "---\nlayout: default\n---" >> AvtoMaks.md 
+echo "---\nlayout: default\n---" >> Avtomojka_na_Koptevskoj_73a.md 
+echo "---\nlayout: default\n---" >> A_\&_Ja.md 
+echo "---\nlayout: default\n---" >> AAA_Smart.md 
+echo "---\nlayout: default\n---" >> ABIKAR.md 
+echo "---\nlayout: default\n---" >> Abris\-Ama.md 
+echo "---\nlayout: default\n---" >> SG\-Motors_na_Jugo\-Zapade.md 
+echo "---\nlayout: default\n---" >> SG\-Motors_na_VDNH.md 
+echo "---\nlayout: default\n---" >> ABSOLJuT.md 
+echo "---\nlayout: default\n---" >> ABS\-Motors.md 
+echo "---\nlayout: default\n---" >> Avalon.md 
+echo "---\nlayout: default\n---" >> Avangard.md 
+echo "---\nlayout: default\n---" >> Avanti_Motorc.md 
+echo "---\nlayout: default\n---" >> Avatar.md 
+echo "---\nlayout: default\n---" >> AVD_servis.md 
+echo "---\nlayout: default\n---" >> Avers_XXI.md 
+echo "---\nlayout: default\n---" >> Avrora.md 
+echo "---\nlayout: default\n---" >> Avto_Gaz.md 
+echo "---\nlayout: default\n---" >> Avto_globus.md 
+echo "---\nlayout: default\n---" >> Avto_Grand.md 
+echo "---\nlayout: default\n---" >> Avto_Djel.md 
+echo "---\nlayout: default\n---" >> Avto_Leon_Art.md 
+echo "---\nlayout: default\n---" >> Avto_Lider_OOO.md 
+echo "---\nlayout: default\n---" >> Avto_Prestizh.md 
+echo "---\nlayout: default\n---" >> Avto_Randevu.md 
+echo "---\nlayout: default\n---" >> Avto_spec_pomoshh_OOO.md 
+echo "---\nlayout: default\n---" >> Avto_Status.md 
+echo "---\nlayout: default\n---" >> AVTO_TehKompleks_OOO.md 
+echo "---\nlayout: default\n---" >> Avto_Shik.md 
+echo "---\nlayout: default\n---" >> Avto_7777.md 
+echo "---\nlayout: default\n---" >> AvtoAljansVostok.md 
+echo "---\nlayout: default\n---" >> Avtoaljans.md 
+echo "---\nlayout: default\n---" >> Avtoban\-Motors.md 
+echo "---\nlayout: default\n---" >> AvtoBoks.md 
+echo "---\nlayout: default\n---" >> Avtobot.md 
+echo "---\nlayout: default\n---" >> Avtobumer.md 
+echo "---\nlayout: default\n---" >> AVTOBUNKER.md 
+echo "---\nlayout: default\n---" >> Avtovelt\-motors.md 
+echo "---\nlayout: default\n---" >> Avtovest\-Servis.md 
+echo "---\nlayout: default\n---" >> AvtoVirazh.md 
+echo "---\nlayout: default\n---" >> AvtoVito\-Zapad.md 
+echo "---\nlayout: default\n---" >> AvtoVito\-Jug.md 
+echo "---\nlayout: default\n---" >> AvtoVito\-Butovo.md 
+echo "---\nlayout: default\n---" >> AvtoVi.md 
+echo "---\nlayout: default\n---" >> Avtogidrosistemy.md 
+echo "---\nlayout: default\n---" >> AVTOGLOBUS.md 
+echo "---\nlayout: default\n---" >> Avtogran.md 
+echo "---\nlayout: default\n---" >> AVTOGROVER.md 
+echo "---\nlayout: default\n---" >> Avtodar.md 
+echo "---\nlayout: default\n---" >> Avtodar\-servis.md 
+echo "---\nlayout: default\n---" >> AvtoDa.md 
+echo "---\nlayout: default\n---" >> Avtodeloff.md 
+echo "---\nlayout: default\n---" >> AvtoDiagnost.md 
+echo "---\nlayout: default\n---" >> AvtoDizajn.md 
+echo "---\nlayout: default\n---" >> Avtodizajn.md 
+echo "---\nlayout: default\n---" >> AVTODOKTOR.md 
+echo "---\nlayout: default\n---" >> Avtodok.md 
+echo "---\nlayout: default\n---" >> Avtodok.md 
+echo "---\nlayout: default\n---" >> Avtodok.md 
+echo "---\nlayout: default\n---" >> AvtoDok\-S.md 
+echo "---\nlayout: default\n---" >> AVTODOR.md 
+echo "---\nlayout: default\n---" >> Avtozashhita.md 
+echo "---\nlayout: default\n---" >> Avtokarat.md 
+echo "---\nlayout: default\n---" >> Avtoklever.md 
+echo "---\nlayout: default\n---" >> Avtoklub_8.md 
+echo "---\nlayout: default\n---" >> AvtoKlub.md 
+echo "---\nlayout: default\n---" >> Avtokompleks_na_ul_Kirova_19_st1.md 
+echo "---\nlayout: default\n---" >> Avtokredo_Pljus.md 
+echo "---\nlayout: default\n---" >> AVTOKRUG.md 
+echo "---\nlayout: default\n---" >> Avtokuzov\+.md 
+echo "---\nlayout: default\n---" >> Avtolegion.md 
+echo "---\nlayout: default\n---" >> AVTOLEKS.md 
+echo "---\nlayout: default\n---" >> Avtolik.md 
+echo "---\nlayout: default\n---" >> AvtoLjuks.md 
+echo "---\nlayout: default\n---" >> Avtoljuks\-Ronam.md 
+echo "---\nlayout: default\n---" >> Avtomagnat.md 
+echo "---\nlayout: default\n---" >> Avtomaksimum.md 
+echo "---\nlayout: default\n---" >> AvtoMaks.md 
+echo "---\nlayout: default\n---" >> AvtoMaks.md 
+echo "---\nlayout: default\n---" >> Avtomanija24.md 
+echo "---\nlayout: default\n---" >> Avtomarket_2000.md 
+echo "---\nlayout: default\n---" >> Avtomasterskaja_na_ul_Vatutina_2.md 
+echo "---\nlayout: default\n---" >> Avtomasterskaja_na_ul_Stepana_Razina_7_st1.md 
+echo "---\nlayout: default\n---" >> Avtomasterskaja_na_Urzhumskoj_1\/3_st2.md 
+echo "---\nlayout: default\n---" >> Avtomaster.md 
+echo "---\nlayout: default\n---" >> Avtomaster.md 
+echo "---\nlayout: default\n---" >> Avtomaster.md 
+echo "---\nlayout: default\n---" >> Avtomaster\-14.md 
+echo "---\nlayout: default\n---" >> Avtomehanika\-dzhip.md 
+echo "---\nlayout: default\n---" >> Avtomehanik.md 
+echo "---\nlayout: default\n---" >> Avtomir_2000.md 
+echo "---\nlayout: default\n---" >> Avtomir.md 
+echo "---\nlayout: default\n---" >> AvtoMytishhi_OOO.md 
+echo "---\nlayout: default\n---" >> AVTONAVTIKA.md 
+echo "---\nlayout: default\n---" >> AVTONOM.md 
+echo "---\nlayout: default\n---" >> AVTOPARITET.md 
+echo "---\nlayout: default\n---" >> Avtopark.md 
+echo "---\nlayout: default\n---" >> AVTOPEGAS\-21.md 
 
