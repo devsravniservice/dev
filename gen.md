@@ -1,4 +1,10 @@
 ---
 layout: default
 ---
-ппвп
+{% for sto in site.data.sto %}
+
+echo --- >> {{sto.name_en}}.md
+echo layout: default >> {{sto.name_en}}.md
+echo --- >> {{sto.name_en}}.md
+
+{% endfor %}
