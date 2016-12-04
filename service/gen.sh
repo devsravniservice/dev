@@ -97,3 +97,4 @@ echo "---\ndefault\n---" >> AVTONOM.md
 echo "---\ndefault\n---" >> AVTOPARITET.md 
 echo "---\ndefault\n---" >> Avtopark.md 
 echo "---\ndefault\n---" >> AVTOPEGAS-21.md 
+
