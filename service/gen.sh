@@ -1,100 +1,99 @@
-echo "---\nlayout: service\n---" >> Avtodrom.md 
-echo "---\nlayout: service\n---" >> AvtoMaks.md 
-echo "---\nlayout: service\n---" >> Avtomojka_na_Koptevskoj_73a.md 
-echo "---\nlayout: service\n---" >> A_\&_Ja.md 
-echo "---\nlayout: service\n---" >> AAA_Smart.md 
-echo "---\nlayout: service\n---" >> ABIKAR.md 
-echo "---\nlayout: service\n---" >> Abris\-Ama.md 
-echo "---\nlayout: service\n---" >> SG\-Motors_na_Jugo\-Zapade.md 
-echo "---\nlayout: service\n---" >> SG\-Motors_na_VDNH.md 
-echo "---\nlayout: service\n---" >> ABSOLJuT.md 
-echo "---\nlayout: service\n---" >> ABS\-Motors.md 
-echo "---\nlayout: service\n---" >> Avalon.md 
-echo "---\nlayout: service\n---" >> Avangard.md 
-echo "---\nlayout: service\n---" >> Avanti_Motorc.md 
-echo "---\nlayout: service\n---" >> Avatar.md 
-echo "---\nlayout: service\n---" >> AVD_servis.md 
-echo "---\nlayout: service\n---" >> Avers_XXI.md 
-echo "---\nlayout: service\n---" >> Avrora.md 
-echo "---\nlayout: service\n---" >> Avto_Gaz.md 
-echo "---\nlayout: service\n---" >> Avto_globus.md 
-echo "---\nlayout: service\n---" >> Avto_Grand.md 
-echo "---\nlayout: service\n---" >> Avto_Djel.md 
-echo "---\nlayout: service\n---" >> Avto_Leon_Art.md 
-echo "---\nlayout: service\n---" >> Avto_Lider_OOO.md 
-echo "---\nlayout: service\n---" >> Avto_Prestizh.md 
-echo "---\nlayout: service\n---" >> Avto_Randevu.md 
-echo "---\nlayout: service\n---" >> Avto_spec_pomoshh_OOO.md 
-echo "---\nlayout: service\n---" >> Avto_Status.md 
-echo "---\nlayout: service\n---" >> AVTO_TehKompleks_OOO.md 
-echo "---\nlayout: service\n---" >> Avto_Shik.md 
-echo "---\nlayout: service\n---" >> Avto_7777.md 
-echo "---\nlayout: service\n---" >> AvtoAljansVostok.md 
-echo "---\nlayout: service\n---" >> Avtoaljans.md 
-echo "---\nlayout: service\n---" >> Avtoban\-Motors.md 
-echo "---\nlayout: service\n---" >> AvtoBoks.md 
-echo "---\nlayout: service\n---" >> Avtobot.md 
-echo "---\nlayout: service\n---" >> Avtobumer.md 
-echo "---\nlayout: service\n---" >> AVTOBUNKER.md 
-echo "---\nlayout: service\n---" >> Avtovelt\-motors.md 
-echo "---\nlayout: service\n---" >> Avtovest\-Servis.md 
-echo "---\nlayout: service\n---" >> AvtoVirazh.md 
-echo "---\nlayout: service\n---" >> AvtoVito\-Zapad.md 
-echo "---\nlayout: service\n---" >> AvtoVito\-Jug.md 
-echo "---\nlayout: service\n---" >> AvtoVito\-Butovo.md 
-echo "---\nlayout: service\n---" >> AvtoVi.md 
-echo "---\nlayout: service\n---" >> Avtogidrosistemy.md 
-echo "---\nlayout: service\n---" >> AVTOGLOBUS.md 
-echo "---\nlayout: service\n---" >> Avtogran.md 
-echo "---\nlayout: service\n---" >> AVTOGROVER.md 
-echo "---\nlayout: service\n---" >> Avtodar.md 
-echo "---\nlayout: service\n---" >> Avtodar\-servis.md 
-echo "---\nlayout: service\n---" >> AvtoDa.md 
-echo "---\nlayout: service\n---" >> Avtodeloff.md 
-echo "---\nlayout: service\n---" >> AvtoDiagnost.md 
-echo "---\nlayout: service\n---" >> AvtoDizajn.md 
-echo "---\nlayout: service\n---" >> Avtodizajn.md 
-echo "---\nlayout: service\n---" >> AVTODOKTOR.md 
-echo "---\nlayout: service\n---" >> Avtodok.md 
-echo "---\nlayout: service\n---" >> Avtodok.md 
-echo "---\nlayout: service\n---" >> Avtodok.md 
-echo "---\nlayout: service\n---" >> AvtoDok\-S.md 
-echo "---\nlayout: service\n---" >> AVTODOR.md 
-echo "---\nlayout: service\n---" >> Avtozashhita.md 
-echo "---\nlayout: service\n---" >> Avtokarat.md 
-echo "---\nlayout: service\n---" >> Avtoklever.md 
-echo "---\nlayout: service\n---" >> Avtoklub_8.md 
-echo "---\nlayout: service\n---" >> AvtoKlub.md 
-echo "---\nlayout: service\n---" >> Avtokompleks_na_ul_Kirova_19_st1.md 
-echo "---\nlayout: service\n---" >> Avtokredo_Pljus.md 
-echo "---\nlayout: service\n---" >> AVTOKRUG.md 
-echo "---\nlayout: service\n---" >> Avtokuzov\+.md 
-echo "---\nlayout: service\n---" >> Avtolegion.md 
-echo "---\nlayout: service\n---" >> AVTOLEKS.md 
-echo "---\nlayout: service\n---" >> Avtolik.md 
-echo "---\nlayout: service\n---" >> AvtoLjuks.md 
-echo "---\nlayout: service\n---" >> Avtoljuks\-Ronam.md 
-echo "---\nlayout: service\n---" >> Avtomagnat.md 
-echo "---\nlayout: service\n---" >> Avtomaksimum.md 
-echo "---\nlayout: service\n---" >> AvtoMaks.md 
-echo "---\nlayout: service\n---" >> AvtoMaks.md 
-echo "---\nlayout: service\n---" >> Avtomanija24.md 
-echo "---\nlayout: service\n---" >> Avtomarket_2000.md 
-echo "---\nlayout: service\n---" >> Avtomasterskaja_na_ul_Vatutina_2.md 
-echo "---\nlayout: service\n---" >> Avtomasterskaja_na_ul_Stepana_Razina_7_st1.md 
-echo "---\nlayout: service\n---" >> Avtomasterskaja_na_Urzhumskoj_1\/3_st2.md 
-echo "---\nlayout: service\n---" >> Avtomaster.md 
-echo "---\nlayout: service\n---" >> Avtomaster.md 
-echo "---\nlayout: service\n---" >> Avtomaster.md 
-echo "---\nlayout: service\n---" >> Avtomaster\-14.md 
-echo "---\nlayout: service\n---" >> Avtomehanika\-dzhip.md 
-echo "---\nlayout: service\n---" >> Avtomehanik.md 
-echo "---\nlayout: service\n---" >> Avtomir_2000.md 
-echo "---\nlayout: service\n---" >> Avtomir.md 
-echo "---\nlayout: service\n---" >> AvtoMytishhi_OOO.md 
-echo "---\nlayout: service\n---" >> AVTONAVTIKA.md 
-echo "---\nlayout: service\n---" >> AVTONOM.md 
-echo "---\nlayout: service\n---" >> AVTOPARITET.md 
-echo "---\nlayout: service\n---" >> Avtopark.md 
-echo "---\nlayout: service\n---" >> AVTOPEGAS\-21.md 
-
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[0] %}"> Avtodrom.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[1] %}"> AvtoMaks.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[2] %}"> Avtomojka_na_Koptevskoj_73a.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[3] %}"> A_\&_Ja.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[4] %}"> AAA_Smart.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[5] %}"> ABIKAR.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[6] %}"> Abris\-Ama.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[7] %}"> SG\-Motors_na_Jugo\-Zapade.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[8] %}"> SG\-Motors_na_VDNH.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[9] %}"> ABSOLJuT.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[10] %}"> ABS-Motors.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[11] %}"> Avalon.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[12] %}"> Avangard.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[13] %}"> Avanti_Motorc.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[14] %}"> Avatar.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[15] %}"> AVD_servis.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[16] %}"> Avers_XXI.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[17] %}"> Avrora.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[18] %}"> Avto_Gaz.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[19] %}"> Avto_globus.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[20] %}"> Avto_Grand.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[21] %}"> Avto_Djel.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[22] %}"> Avto_Leon_Art.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[23] %}"> Avto_Lider_OOO.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[24] %}"> Avto_Prestizh.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[25] %}"> Avto_Randevu.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[26] %}"> Avto_spec_pomoshh_OOO.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[27] %}"> Avto_Status.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[28] %}"> AVTO_TehKompleks_OOO.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[29] %}"> Avto_Shik.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[30] %}"> Avto_7777.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[31] %}"> AvtoAljansVostok.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[32] %}"> Avtoaljans.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[33] %}"> Avtoban\-Motors.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[34] %}"> AvtoBoks.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[35] %}"> Avtobot.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[36] %}"> Avtobumer.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[37] %}"> AVTOBUNKER.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[38] %}"> Avtovelt\-motors.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[39] %}"> Avtovest\-Servis.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[40] %}"> AvtoVirazh.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[41] %}"> AvtoVito\-Zapad.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[42] %}"> AvtoVito\-Jug.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[43] %}"> AvtoVito\-Butovo.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[44] %}"> AvtoVi.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[45] %}"> Avtogidrosistemy.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[46] %}"> AVTOGLOBUS.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[47] %}"> Avtogran.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[48] %}"> AVTOGROVER.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[49] %}"> Avtodar.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[50] %}"> Avtodar-servis.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[51] %}"> AvtoDa.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[52] %}"> Avtodeloff.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[53] %}"> AvtoDiagnost.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[54] %}"> AvtoDizajn.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[55] %}"> Avtodizajn.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[56] %}"> AVTODOKTOR.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[57] %}"> Avtodok.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[58] %}"> Avtodok.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[59] %}"> Avtodok.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[60] %}"> AvtoDok\-S.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[61] %}"> AVTODOR.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[62] %}"> Avtozashhita.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[63] %}"> Avtokarat.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[64] %}"> Avtoklever.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[65] %}"> Avtoklub_8.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[66] %}"> AvtoKlub.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[67] %}"> Avtokompleks_na_ul_Kirova_19_st1.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[68] %}"> Avtokredo_Pljus.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[69] %}"> AVTOKRUG.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[70] %}"> Avtokuzov\+.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[71] %}"> Avtolegion.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[72] %}"> AVTOLEKS.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[73] %}"> Avtolik.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[74] %}"> AvtoLjuks.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[75] %}"> Avtoljuks-Ronam.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[76] %}"> Avtomagnat.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[77] %}"> Avtomaksimum.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[78] %}"> AvtoMaks.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[79] %}"> AvtoMaks.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[80] %}"> Avtomanija24.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[81] %}"> Avtomarket_2000.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[82] %}"> Avtomasterskaja_na_ul_Vatutina_2.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[83] %}"> Avtomasterskaja_na_ul_Stepana_Razina_7_st1.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[84] %}"> Avtomasterskaja_na_Urzhumskoj_1_3_st2.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[85] %}"> Avtomaster.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[86] %}"> Avtomaster.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[87] %}"> Avtomaster.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[88] %}"> Avtomaster\-14.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[89] %}"> Avtomehanika\-dzhip.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[90] %}"> Avtomehanik.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[91] %}"> Avtomir_2000.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[92] %}"> Avtomir.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[93] %}"> AvtoMytishhi_OOO.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[94] %}"> AVTONAVTIKA.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[95] %}"> AVTONOM.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[96] %}"> AVTOPARITET.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[97] %}"> Avtopark.md 
+echo "---\nlayout: service\n---\n{% assign sto = site.data.sto[98] %}"> AVTOPEGAS\-21.md 
