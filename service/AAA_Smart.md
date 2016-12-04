@@ -1,5 +1,5 @@
 ---
 layout: service
 ---
-{% assign sto = site.data.sto[4] %}
+<div>{% assign sto = site.data.sto[4] %}</div>
 
