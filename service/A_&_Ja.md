@@ -1,4 +1,4 @@
 ---
 layout: service
-service: A_&_Ja
+name: A_&_Ja
 ---
