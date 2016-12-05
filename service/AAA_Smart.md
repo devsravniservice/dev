@@ -1,7 +1,7 @@
 ---
 layout: default
-name: 12
+id: 12
 ---
 
-{{page.name}}
+{{page.id}}
 	
