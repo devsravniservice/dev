@@ -3,7 +3,7 @@ layout: default
 id: 12
 ---
 
-	<div>{% assign sto = site.data.sto[post.id] %}</div>
+	<div>{% assign sto = site.data.sto[page.id] %}</div>
 			<div class="col-md-8">
   			<h1>Автосервис: {{sto.name}}</h1>	
   			<div>
