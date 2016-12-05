@@ -1,4 +1,4 @@
 ---
 layout: service
+id: 98
 ---
-{% assign sto = site.data.sto[98] %}
