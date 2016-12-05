@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-site.data.sto[page.title]
+{{site.data.sto[1]}}
 	
