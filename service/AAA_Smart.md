@@ -3,5 +3,22 @@ layout: default
 id: 12
 ---
 
-{{page.id}}
+	<div>{% assign sto = site.data.sto[post.id] %}</div>
+			<div class="col-md-8">
+  			<h1>Автосервис: {{sto.name}}</h1>	
+  			<div>
+	  			<dl class="dl-horizontal">
+	  				<dt>Город</dt> <dd>{{sto.sity}}</dd>
+	  				<dt>Адрес</dt> <dd>{{sto.adress}}</dd>
+	  				<dt>Телефон</dt> <dd>{{sto.telefon}}</dd>
+	  				<dt>Время работы</dt> <dd>{{sto.time}}</dd>
+	  				<dt>Работы в выходные</dt> <dd>{{sto.time2}}</dd>
+	  				<dt>Категория сервиса</dt> <dd>{{sto.status}}</dd>
+	  				<dt>Обслуживание марок</dt> <dd>{{sto.marki}}</dd>
+	  			</dl>				
+  			</div>				
+  			<!--вывод карты-->
+  			<img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=350,350&amp;spn=0.02,0.02"> 
+
+  			</div>
 	
