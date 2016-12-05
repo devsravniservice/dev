@@ -1,6 +1,5 @@
 ---
 layout: default
-name:12
 ---
 
 	<div>{% assign sto = site.data.sto[page.name] %}</div>
