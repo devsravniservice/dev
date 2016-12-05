@@ -2,7 +2,7 @@
 layout: default
 ---
 
-	<div>{% assign sto = site.data.sto[page.name] %}</div>
+	<div>{% assign sto = site.data.sto[page.title] %}</div>
 			<div class="col-md-8">
   			<h1>Автосервис: {{sto.name}}</h1>	
   			<div>
