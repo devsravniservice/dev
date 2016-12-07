@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% for sto in site.data.sto %}
+{% for sto in site.data.sto | where:"marki","*Toyota*"  %}
 <div class="row">
 <h2>Автосервис: <a href="{{site.baseurl}}/service/{{sto.name_en}}-{{sto.id}}">{{sto.name}}</a></h2>
 <p>Адресс: {{sto.adress}}</p>
@@ -11,3 +11,4 @@ layout: default
 </div>
 
 {% endfor %}
+<p>{% render_time page rendered at: %}</p>
