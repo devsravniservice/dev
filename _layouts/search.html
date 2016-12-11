@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-"{{page.search}}"
-
+{% assign marka = {{page.search}} %}
 {% for sto in site.data.sto %}
-{% if sto.marki contains "page.search" %}
+{% if sto.marki contains "marka" %}
 <div class="row">
 <h2>Автосервис: <a href="{{site.baseurl}}/service/{{sto.name_en}}-{{sto.id}}">{{sto.name}}</a></h2>
 <p>Адресс: {{sto.adress}}</p>
