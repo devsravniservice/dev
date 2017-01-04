@@ -3,7 +3,7 @@ layout: default
 id: 90
 ---
 {% for cto in site.data.cto %}
-{% if cto.id contains "90" %}
+{% if cto.id contains "{{page.id}}" %}
 
 <div class="row">
 		<div class="col-md-8">
