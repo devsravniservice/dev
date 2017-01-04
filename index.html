@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% for cto in site.data.cto %}
-{% if cto.marki contains "Все марки" %}
+{% if cto.marki contains "Acura" %}
 <div class="row">
 <h2>Автосервис: <a href="{{site.baseurl}}/service/{{cto.name_en}}-{{cto.id}}">{{cto.name}}</a></h2>
 <p>Адресс: {{cto.adress}}</p>
