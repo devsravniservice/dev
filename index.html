@@ -2,11 +2,11 @@
 layout: default
 id: 90
 ---
-
+{% for cto in site.data.cto %}
+{% if cto.id contains 90 %}
 
 <div class="row">
-	<div>{% assign cto = site.data.cto | {{page.id}} %}</div>
-			<div class="col-md-8">
+		<div class="col-md-8">
   			<h1>Автосервис: {{cto.name}}</h1>	
   			<div>
 	  			<dl class="dl-horizontal">
@@ -47,3 +47,6 @@ id: 90
 				</div>
 		</div>
 </div>
+
+{% endif %}
+{% endfor %}
