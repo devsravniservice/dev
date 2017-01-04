@@ -1,6 +1,16 @@
 ---
 layout: default
 ---
+
+{% assign cto = site.data.cto[S68] %}
+
+<p>Адресс: {{cto.dress}}</p>
+<p>Марки: {{cto.marki}}</p>
+
+
+
+
+---------------------------
 {% for cto in site.data.cto %}
 {% for cto1 in cto.S68 %}
 
