@@ -1,8 +1,4 @@
 ---
 layout: service
-id:S1334
----
----
-layout: service
-id:S1334
+id: S1334
 ---

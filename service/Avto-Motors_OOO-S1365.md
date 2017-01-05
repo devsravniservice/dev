@@ -1,8 +1,4 @@
 ---
 layout: service
-id:S1365
----
----
-layout: service
-id:S1365
+id: S1365
 ---

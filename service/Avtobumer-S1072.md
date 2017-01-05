@@ -1,8 +1,4 @@
 ---
 layout: service
-id:S1072
----
----
-layout: service
-id:S1072
+id: S1072
 ---

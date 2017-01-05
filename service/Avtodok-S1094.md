@@ -1,8 +1,4 @@
 ---
 layout: service
-id:S1094
----
----
-layout: service
-id:S1094
+id: S1094
 ---
