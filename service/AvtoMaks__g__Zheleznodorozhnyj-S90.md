@@ -1,8 +1,8 @@
 ---
 layout: default
-id1S: "S90"
+id1: "S90"
 ---
-@1111
+@11111
 
 {% for cto in site.data.cto %}
 {% if cto.id == page.id1 %}
