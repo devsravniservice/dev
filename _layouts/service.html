@@ -3,10 +3,11 @@ layout: default
 ---
 
 <h1>test</h1>
-<!--{% assign cto = site.data.cto[1] %}
-{% for cto in site.data.cto %}
+@1
 
-{% if cto.id == "S90" %}
+{% assign cto = site.data.cto[0] %}
+{% for cto in site.data.cto %}
+<!--{% if cto.id == "S90" %}-->
 <div class="row">
 		<div class="col-md-8">
   			<h1>Автосервис: {{cto.name}}</h1>	
@@ -22,7 +23,7 @@ layout: default
 	  			</dl>				
   			</div>				
   			<!--вывод карты
-  			<img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;pt={{cto.x}},{{cto.y}}&amp;z=8&amp;l=map&amp;size=350,350&amp;spn=0.003,0.003"> 
+  			<img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;pt={{cto.x}},{{cto.y}}&amp;z=8&amp;l=map&amp;size=350,350&amp;spn=0.003,0.003"> -->
 
   			</div>
   		
@@ -50,4 +51,4 @@ layout: default
 		</div>
 </div>
 {% endif%}
-{% endfor %}-->
+{% endfor %}
