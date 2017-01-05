@@ -1,4 +1,4 @@
 ---
-layout: default
+layout: service
 id: 0
 ---
