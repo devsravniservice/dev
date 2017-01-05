@@ -1,4 +1,4 @@
 ---
-layout: service
+layout: default
 id: S68
 ---
