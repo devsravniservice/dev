@@ -1,18 +1,18 @@
 ---
 layout: default
-id: "S90"
+id: S90
 ---
-@3
+@3-2
 
 {% for cto in site.data.cto %}
 {% if cto.id == page.id %}
 
 <div class="row">
-		<div class="col-md-8">
-  			<h1>Автосервис: {{cto.name}}</h1>	
-  			<div>
-	  			<dl class="dl-horizontal">
-	  				<dt>Город</dt> <dd>{{cto.sity}}</dd>
+    <div class="col-md-8">
+  	<h1>Автосервис: {{cto.name}}</h1>	
+  	<div>
+	    <dl class="dl-horizontal">
+        <dt>Город</dt> <dd>{{cto.sity}}</dd>
 	  				<dt>Адрес</dt> <dd>{{cto.adress}}</dd>
 	  				<dt>Телефон</dt> <dd>{{cto.telefon}}</dd>
 	  				<dt>Время работы</dt> <dd>{{cto.time}}</dd>
@@ -25,7 +25,7 @@ id: "S90"
   			<img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;pt={{cto.x}},{{cto.y}}&amp;z=8&amp;l=map&amp;size=350,350&amp;spn=0.003,0.003"> -->
 
   			</div>
-  		
+  		</div>
  		 	<div class="col-md-4"> 	
  		 	<p>
  		 		<h4><b>Сервис выполняет следующие работы:</b></h4>
