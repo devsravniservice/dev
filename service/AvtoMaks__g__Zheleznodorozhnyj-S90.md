@@ -2,10 +2,10 @@
 layout: default
 id1S: "S90"
 ---
-@111
+@1111
 
 {% for cto in site.data.cto %}
-{% if cto.id == {{page.id1}} %}
+{% if cto.id == page.id1 %}
 
 <div class="row">
 		<div class="col-md-8">
