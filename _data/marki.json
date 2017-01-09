@@ -1,0 +1,604 @@
+[
+    {
+      "marki_id" : "M01",
+      "marki_name_en" : "Acura",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "a"
+    },
+    {
+      "marki_id" : "M02",
+      "marki_name_en" : "Alfa Romeo",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "a"
+    },
+    {
+      "marki_id" : "M03",
+      "marki_name_en" : "Aston Martin",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "a"
+    },
+    {
+      "marki_id" : "M04",
+      "marki_name_en" : "Audi",
+      "marka_strana" : "evropa",
+      "populyarnost" : "da",
+      "marka_litera" : "a"
+    },
+    {
+      "marki_id" : "M05",
+      "marki_name_en" : "Bentley",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "b"
+    },
+    {
+      "marki_id" : "M06",
+      "marki_name_en" : "BMW",
+      "marka_strana" : "evropa",
+      "populyarnost" : "da",
+      "marka_litera" : "b"
+    },
+    {
+      "marki_id" : "M07",
+      "marki_name_en" : "Brilliance",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "b"
+    },
+    {
+      "marki_id" : "M08",
+      "marki_name_en" : "Bugatti",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "b"
+    },
+    {
+      "marki_id" : "M09",
+      "marki_name_en" : "Buick",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "b"
+    },
+    {
+      "marki_id" : "M10",
+      "marki_name_en" : "BYD",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "b"
+    },
+    {
+      "marki_id" : "M11",
+      "marki_name_en" : "Cadillac",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "c"
+    },
+    {
+      "marki_id" : "M12",
+      "marki_name_en" : "Changan",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "c"
+    },
+    {
+      "marki_id" : "M13",
+      "marki_name_en" : "Chery",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "c"
+    },
+    {
+      "marki_id" : "M14",
+      "marki_name_en" : "Chevrolet",
+      "marka_strana" : "amerika",
+      "populyarnost" : "da",
+      "marka_litera" : "c"
+    },
+    {
+      "marki_id" : "M15",
+      "marki_name_en" : "Chrysler",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "c"
+    },
+    {
+      "marki_id" : "M16",
+      "marki_name_en" : "Citroen",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "c"
+    },
+    {
+      "marki_id" : "M17",
+      "marki_name_en" : "Daewoo",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "d"
+    },
+    {
+      "marki_id" : "M18",
+      "marki_name_en" : "Daihatsu",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "d"
+    },
+    {
+      "marki_id" : "M19",
+      "marki_name_en" : "Datsun",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "d"
+    },
+    {
+      "marki_id" : "M20",
+      "marki_name_en" : "Dodge",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "d"
+    },
+    {
+      "marki_id" : "M21",
+      "marki_name_en" : "DongFeng",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "d"
+    },
+    {
+      "marki_id" : "M22",
+      "marki_name_en" : "DS",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "d"
+    },
+    {
+      "marki_id" : "M23",
+      "marki_name_en" : "FAW",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "f"
+    },
+    {
+      "marki_id" : "M24",
+      "marki_name_en" : "Ferrari",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "f"
+    },
+    {
+      "marki_id" : "M25",
+      "marki_name_en" : "Fiat",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "f"
+    },
+    {
+      "marki_id" : "M26",
+      "marki_name_en" : "Ford",
+      "marka_strana" : "amerika",
+      "populyarnost" : "da",
+      "marka_litera" : "f"
+    },
+    {
+      "marki_id" : "M27",
+      "marki_name_en" : "Foton",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "f"
+    },
+    {
+      "marki_id" : "M28",
+      "marki_name_en" : "GAC",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "g"
+    },
+    {
+      "marki_id" : "M29",
+      "marki_name_en" : "Geely",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "g"
+    },
+    {
+      "marki_id" : "M30",
+      "marki_name_en" : "Genesis",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "g"
+    },
+    {
+      "marki_id" : "M31",
+      "marki_name_en" : "GMC",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "g"
+    },
+    {
+      "marki_id" : "M32",
+      "marki_name_en" : "Great Wll",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "g"
+    },
+    {
+      "marki_id" : "M33",
+      "marki_name_en" : "Haima",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "h"
+    },
+    {
+      "marki_id" : "M34",
+      "marki_name_en" : "Haval",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "h"
+    },
+    {
+      "marki_id" : "M35",
+      "marki_name_en" : "Honda",
+      "marka_strana" : "aziya",
+      "populyarnost" : "da",
+      "marka_litera" : "h"
+    },
+    {
+      "marki_id" : "M36",
+      "marki_name_en" : "Hummer",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "h"
+    },
+    {
+      "marki_id" : "M37",
+      "marki_name_en" : "Hyundai",
+      "marka_strana" : "aziya",
+      "populyarnost" : "da",
+      "marka_litera" : "h"
+    },
+    {
+      "marki_id" : "M38",
+      "marki_name_en" : "Infiniti",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "i"
+    },
+    {
+      "marki_id" : "M39",
+      "marki_name_en" : "Isuzu",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "i"
+    },
+    {
+      "marki_id" : "M40",
+      "marki_name_en" : "JAC",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "j"
+    },
+    {
+      "marki_id" : "M41",
+      "marki_name_en" : "Jaguar",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "j"
+    },
+    {
+      "marki_id" : "M42",
+      "marki_name_en" : "Jeep",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "j"
+    },
+    {
+      "marki_id" : "M43",
+      "marki_name_en" : "Kia",
+      "marka_strana" : "aziya",
+      "populyarnost" : "da",
+      "marka_litera" : "k"
+    },
+    {
+      "marki_id" : "M44",
+      "marki_name_en" : "Lamborghini",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "l"
+    },
+    {
+      "marki_id" : "M45",
+      "marki_name_en" : "Lancia",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "l"
+    },
+    {
+      "marki_id" : "M46",
+      "marki_name_en" : "Land Rover",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "l"
+    },
+    {
+      "marki_id" : "M47",
+      "marki_name_en" : "Lexus",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "l"
+    },
+    {
+      "marki_id" : "M48",
+      "marki_name_en" : "Lifan",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "l"
+    },
+    {
+      "marki_id" : "M49",
+      "marki_name_en" : "Lincoln",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "l"
+    },
+    {
+      "marki_id" : "M50",
+      "marki_name_en" : "Luxgen",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "l"
+    },
+    {
+      "marki_id" : "M51",
+      "marki_name_en" : "Maserati",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "m"
+    },
+    {
+      "marki_id" : "M52",
+      "marki_name_en" : "Maybach",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "m"
+    },
+    {
+      "marki_id" : "M53",
+      "marki_name_en" : "Mazda",
+      "marka_strana" : "aziya",
+      "populyarnost" : "da",
+      "marka_litera" : "m"
+    },
+    {
+      "marki_id" : "M54",
+      "marki_name_en" : "Mercedes-Benz",
+      "marka_strana" : "evropa",
+      "populyarnost" : "da",
+      "marka_litera" : "m"
+    },
+    {
+      "marki_id" : "M55",
+      "marki_name_en" : "Mercury",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "m"
+    },
+    {
+      "marki_id" : "M56",
+      "marki_name_en" : "Mini",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "m"
+    },
+    {
+      "marki_id" : "M57",
+      "marki_name_en" : "Mitsubishi",
+      "marka_strana" : "aziya",
+      "populyarnost" : "da",
+      "marka_litera" : "m"
+    },
+    {
+      "marki_id" : "M58",
+      "marki_name_en" : "Nissan",
+      "marka_strana" : "aziya",
+      "populyarnost" : "da",
+      "marka_litera" : "N"
+    },
+    {
+      "marki_id" : "M59",
+      "marki_name_en" : "Oldsmobile",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "O"
+    },
+    {
+      "marki_id" : "M60",
+      "marki_name_en" : "Opel",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "O"
+    },
+    {
+      "marki_id" : "M61",
+      "marki_name_en" : "Peugeot",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "P"
+    },
+    {
+      "marki_id" : "M62",
+      "marki_name_en" : "Pontiac",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "P"
+    },
+    {
+      "marki_id" : "M63",
+      "marki_name_en" : "Porsche",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "P"
+    },
+    {
+      "marki_id" : "M64",
+      "marki_name_en" : "Ravon",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "r"
+    },
+    {
+      "marki_id" : "M65",
+      "marki_name_en" : "Renault",
+      "marka_strana" : "evropa",
+      "populyarnost" : "da",
+      "marka_litera" : "r"
+    },
+    {
+      "marki_id" : "M66",
+      "marki_name_en" : "Rolls-Royce",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "r"
+    },
+    {
+      "marki_id" : "M67",
+      "marki_name_en" : "Rover",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "r"
+    },
+    {
+      "marki_id" : "M68",
+      "marki_name_en" : "Saab",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "S"
+    },
+    {
+      "marki_id" : "M69",
+      "marki_name_en" : "Scion",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "S"
+    },
+    {
+      "marki_id" : "M70",
+      "marki_name_en" : "SEAT",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "S"
+    },
+    {
+      "marki_id" : "M71",
+      "marki_name_en" : "Skoda",
+      "marka_strana" : "evropa",
+      "populyarnost" : "da",
+      "marka_litera" : "S"
+    },
+    {
+      "marki_id" : "M72",
+      "marki_name_en" : "Smart",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "S"
+    },
+    {
+      "marki_id" : "M73",
+      "marki_name_en" : "SsangYong",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "S"
+    },
+    {
+      "marki_id" : "M74",
+      "marki_name_en" : "Subaru",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "S"
+    },
+    {
+      "marki_id" : "M75",
+      "marki_name_en" : "Suzuki",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "S"
+    },
+    {
+      "marki_id" : "M76",
+      "marki_name_en" : "Tesla",
+      "marka_strana" : "amerika",
+      "populyarnost" : "net",
+      "marka_litera" : "t"
+    },
+    {
+      "marki_id" : "M77",
+      "marki_name_en" : "Toyota",
+      "marka_strana" : "aziya",
+      "populyarnost" : "da",
+      "marka_litera" : "t"
+    },
+    {
+      "marki_id" : "M78",
+      "marki_name_en" : "Volkswagen",
+      "marka_strana" : "evropa",
+      "populyarnost" : "da",
+      "marka_litera" : "v"
+    },
+    {
+      "marki_id" : "M79",
+      "marki_name_en" : "Volvo",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "v"
+    },
+    {
+      "marki_id" : "M80",
+      "marki_name_en" : "ZAZ",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "Z"
+    },
+    {
+      "marki_id" : "M81",
+      "marki_name_en" : "Zotye",
+      "marka_strana" : "aziya",
+      "populyarnost" : "net",
+      "marka_litera" : "Z"
+    },
+    {
+      "marki_id" : "M82",
+      "marki_name_en" : "VAZ",
+      "marka_strana" : "evropa",
+      "populyarnost" : "da",
+      "marka_litera" : "V"
+    },
+    {
+      "marki_id" : "M83",
+      "marki_name_en" : "GAZ",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "G"
+    },
+    {
+      "marki_id" : "M84",
+      "marki_name_en" : "UAZ",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "U"
+    },
+    {
+      "marki_id" : "M85",
+      "marki_name_en" : "Moskvich",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "M"
+    },
+    {
+      "marki_id" : "M86",
+      "marki_name_en" : "Tagaz",
+      "marka_strana" : "evropa",
+      "populyarnost" : "net",
+      "marka_litera" : "T"
+    }
+]

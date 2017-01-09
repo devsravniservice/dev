@@ -2,8 +2,35 @@
 layout: default
 ---
 <div class="row">
-    <div class="col-md-8">
-        <p>
+ <div class="col-md-8">
+ <h2>ПОПУЛЯРНЫЕ МАРКИ</h2>
+ {% for marki in site.data.marki %}
+ {% if marki.populyarnost contains "da" %}
+ 
+ | {{marki.marki_name_en}}
+ 
+ {%endif%}
+ {%endfor%}
+ 
+ </div> 
+</div>
+<div class="row">
+ <div class="col-md-8">
+ <h2>ЕВРОПЕЙСКИЕ МАРКИ</h2>
+ {% for marki in site.data.marki %}
+ {% if marki.marka_strana contains "evropa" %}
+ 
+ | {{marki.marki_name_en}}
+ 
+ {%endif%}
+ {%endfor%}
+ 
+ </div> 
+</div>
+
+<div class="row">
+  <div class="col-md-8">
+    <p>
        <h2>Алфавитный указатель:</h2>
        <P><b>A</b>
      <a href="./service-Acura">Acura</a> | 
@@ -139,7 +166,7 @@ layout: default
             <a href="">Частные сервисы</a> | 
         </p>
         <p>
-        <h2>Униаерсальность сервиса</h2>    
+        <h2>Универсальность сервиса</h2>    
            |   <a href="">Монобрендовые</a>  | 
             <a href="">Мультибрендовые</a> | 
             <a href="./service-vse">Все</a>  | 
