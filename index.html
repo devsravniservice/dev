@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="row">
  <div class="col-md-8">
- <h2>ПОПУЛЯРНЫЕ МАРКИ</h2>
+ <h2>Ремонт популярных марок</h2>
  {% for marki in site.data.marki %}
  {% if marki.populyarnost contains "da" %}
  
- | {{marki.marki_name_en}}
+ | <a href="./service-{{marki.marki_name_en}}">{{marki.marki_name_en}}</a>
  
  {%endif%}
  {%endfor%}
@@ -16,11 +16,37 @@ layout: default
 </div>
 <div class="row">
  <div class="col-md-8">
- <h2>ЕВРОПЕЙСКИЕ МАРКИ</h2>
+ <h2>Ремонт европейских марок</h2>
  {% for marki in site.data.marki %}
  {% if marki.marka_strana contains "evropa" %}
  
- | {{marki.marki_name_en}}
+ | <a href="./service-{{marki.marki_name_en}}">{{marki.marki_name_en}}</a>
+ 
+ {%endif%}
+ {%endfor%}
+ 
+ </div> 
+</div>
+<div class="row">
+ <div class="col-md-8">
+ <h2>Ремонт японских, корейских и китайских марок</h2>
+ {% for marki in site.data.marki %}
+ {% if marki.marka_strana contains "aziya" %}
+ 
+ | <a href="./service-{{marki.marki_name_en}}">{{marki.marki_name_en}}</a>
+ 
+ {%endif%}
+ {%endfor%}
+ 
+ </div> 
+</div>
+<div class="row">
+ <div class="col-md-8">
+ <h2>Ремонт американских марок</h2>
+ {% for marki in site.data.marki %}
+ {% if marki.marka_strana contains "amerika" %}
+ 
+ | <a href="./service-{{marki.marki_name_en}}">{{marki.marki_name_en}}</a>
  
  {%endif%}
  {%endfor%}
@@ -31,7 +57,7 @@ layout: default
 <div class="row">
   <div class="col-md-8">
     <p>
-       <h2>Алфавитный указатель:</h2>
+       <h2>Алфавитный указатель марок:</h2>
        <P><b>A</b>
      <a href="./service-Acura">Acura</a> | 
      <a href="./service-Alfaromeo">AlfaRomeo</a> | 
