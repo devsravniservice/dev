@@ -8,14 +8,14 @@
     },
     {
       "marki_id" : "M02",
-      "marki_name_en" : "Alfa Romeo",
+      "marki_name_en" : "AlfaRomeo",
       "marka_strana" : "evropa",
       "populyarnost" : "net",
       "marka_litera" : "a"
     },
     {
       "marki_id" : "M03",
-      "marki_name_en" : "Aston Martin",
+      "marki_name_en" : "AstonMartin",
       "marka_strana" : "evropa",
       "populyarnost" : "net",
       "marka_litera" : "a"
@@ -218,7 +218,7 @@
     },
     {
       "marki_id" : "M32",
-      "marki_name_en" : "Great Wll",
+      "marki_name_en" : "GreatWall",
       "marka_strana" : "aziya",
       "populyarnost" : "net",
       "marka_litera" : "g"
@@ -316,7 +316,7 @@
     },
     {
       "marki_id" : "M46",
-      "marki_name_en" : "Land Rover",
+      "marki_name_en" : "LandRover",
       "marka_strana" : "evropa",
       "populyarnost" : "net",
       "marka_litera" : "l"
@@ -372,7 +372,7 @@
     },
     {
       "marki_id" : "M54",
-      "marki_name_en" : "Mercedes-Benz",
+      "marki_name_en" : "Mercedes,
       "marka_strana" : "evropa",
       "populyarnost" : "da",
       "marka_litera" : "m"
@@ -456,7 +456,7 @@
     },
     {
       "marki_id" : "M66",
-      "marki_name_en" : "Rolls-Royce",
+      "marki_name_en" : "RollsRoyce",
       "marka_strana" : "evropa",
       "populyarnost" : "net",
       "marka_litera" : "r"
