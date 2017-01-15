@@ -28,11 +28,11 @@ layout: default
  		 	<div>
  		 		<h2><b>ДРУГИЕ СЕРВИСЫ: {{sto.marki}}</b></h2>
  		 	    <ul>
- 		 	    {% for sto in site.data.sto %}
-					{% if sto.marki == marki %}
+ 		 	    {% for cto in site.data.sto %}
+					{% if cto.marki == marki %}
 		
 		
-					<li>{{sto.name}}</li>
+					<li>{{cto.name}}</li>
 
 				{% endif%}
 			{% endfor %}
