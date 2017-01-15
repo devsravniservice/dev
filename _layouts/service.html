@@ -20,19 +20,28 @@ layout: default
 	  			</dl>				
   			</div>				
   			<!--вывод карты-->
-  			<img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;pt={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=350,350&amp;spn=0.003,0.003"> 
+  			<img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;pt={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=550,450&amp;spn=0.003,0.003"> 
 
   	</div>
 	<div class="col-md-4"> 	
- 		 	<p>
- 		 		<h4><b>ДРУГИЕ СЕРВИСЫ ПО БЛИЗОСТИ</b></h4>
- 		 	    ------------------
- 		 		</p>
- 		 		
- 		 	<P>
- 		 		Полезные статьти
- 		 	</P>
+ 		 	<div>
+ 		 		<h2><b>ДРУГИЕ СЕРВИСЫ: {{sto.marki}}</b></h2>
+ 		 	    <ul>
+ 		 	    {% for sto in site.data.sto %}
+					{% if sto.marki == {{sto.marki}} limit:3  %}
+		
+					<li>{{sto.name}}</li>
+
+				{% endif%}
+			{% endfor %}
+			</ul>			
+			
+			</div>		
+			<div>
+ 		 		<h2>Полезные статьти</h2>
+ 		 	
  		 	</div>
+ 	</div>
 </div>
 <div class="row">
 	
