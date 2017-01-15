@@ -3,7 +3,7 @@ layout: default
 ---
 {% for sto in site.data.sto %}
 {% if sto.marki contains "BMW" %}
-<div class="row">
+<div class="hero-unit">
 <h2>Автосервис: <a href="{{site.baseurl}}/service/{{sto.name_en}}-{{sto.id}}">{{sto.name}}</a></h2>
 <p>Адресс: {{sto.adress}}</p>
 <p>Марки: {{sto.marki}}</p>
