@@ -18,7 +18,8 @@ layout: default
 	  				<dt>Категория сервиса</dt> <dd>{{sto.status}}</dd>
 	  				<dt>Обслуживание марок</dt> <dd>{{sto.marki}}</dd>
 	  			</dl>				
-  			</div>				
+  			</div>		
+  	{% assign marki = {{sto.marki}}%}
   			<!--вывод карты-->
   			<img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;pt={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=550,450&amp;spn=0.003,0.003"> 
 
@@ -28,7 +29,8 @@ layout: default
  		 		<h2><b>ДРУГИЕ СЕРВИСЫ: {{sto.marki}}</b></h2>
  		 	    <ul>
  		 	    {% for sto in site.data.sto %}
-					{% if sto.marki == {{sto.marki}} limit:3  %}
+					{% if sto.marki == marki %}
+		
 		
 					<li>{{sto.name}}</li>
 
