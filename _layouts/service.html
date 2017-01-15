@@ -7,7 +7,7 @@ layout: default
 
 <div class="row">
     <div class="col-md-8">
-  	<h1>Автосервис: {{sto.name}}</h1>	
+  	<h1>Автосервис {{sto.name}}</h1>	
   	<div>
 	    <dl class="dl-horizontal">
         <dt>Город</dt> <dd>{{sto.sity}}</dd>
@@ -26,23 +26,22 @@ layout: default
   	</div>
 	<div class="col-md-4"> 	
  		 	<div>
- 		 		<h2><b>ДРУГИЕ СЕРВИСЫ: {{sto.marki}}</b></h2>
+ 		 		<h2><b>ДРУГИЕ СЕРВИСЫ {{sto.marki}}</b></h2>
  		 	    <ul>
  		 	    {% for cto in site.data.sto %}
 					{% if cto.marki == marki %}
 		
 		
-					<li>{{cto.name}}</li>
+					<li>
+					 <a href="{{site.baseurl}}/service/{{cto.name_en}}-{{cto.id}}">{{cto.name}}</a>
+					</li>
 
 				{% endif%}
 			{% endfor %}
 			</ul>			
 			
 			</div>		
-			<div>
- 		 		<h2>Полезные статьти</h2>
- 		 	
- 		 	</div>
+		
  	</div>
 </div>
 <div class="row">
