@@ -15,17 +15,15 @@ layout: default
 {% assign answers=answers+1 %}
 </div>
 {% endif %}
-
 {% endfor %} 
 
 {% if answers == 0 %}
-<H2>К СОЖАЛЕНИЮ НА ДАННЫЙ МОМЕНТ У НАСС В БАЗЕ НЕТ ПОИСКОВ СПЕЦИАЛИЗИРУЮЩИХСЯ НА ДАННОЙ МАРКЕ</H2>
+<H2>К СОЖАЛЕНИЮ НА ДАННЫЙ МОМЕНТ У НАСС В БАЗЕ НЕТ СЕРВИСОВ СПЕЦИАЛИЗИРУЮЩИХСЯ НА ДАННОЙ МАРКЕ</H2>
 <p>ПОПРОБУЙТЕ ПОДОБРАТЬ ИЗ СПИСКА УНИВЕРСАЛЬНЫХ СЕРВИСОВ</p>
 
 
-
 {% for sto in site.data.sto %}
-{% if sto.marki == "все марки" %}
+{% if sto.marki == "Все марки"%}
 <div class="row">
 <h2>Автосервис: <a href="{{site.baseurl}}/service/{{sto.name_en}}-{{sto.id}}">{{sto.name}}</a></h2>
 <p>Адресс: {{sto.adress}}</p>
