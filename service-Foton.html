@@ -1,11 +1,13 @@
 ---
 layout: default
+serch: Foton
+
 ---
 
 {% assign answers = 0%}
 {% for sto in site.data.sto %}
 
-{% if sto.marki == "Foton" %}
+{% if sto.marki == page.serch %}
 <div class="row">
 <h2>Автосервис: <a href="{{site.baseurl}}/service/{{sto.name_en}}-{{sto.id}}">{{sto.name}}</a></h2>
 <p>Адресс: {{sto.adress}}</p>
@@ -18,7 +20,7 @@ layout: default
 {% endfor %} 
 
 {% if answers == 0 %}
-<H2>К СОЖАЛЕНИЮ НА ДАННЫЙ МОМЕНТ У НАСС В БАЗЕ НЕТ СЕРВИСОВ СПЕЦИАЛИЗИРУЮЩИХСЯ НА ДАННОЙ МАРКЕ</H2>
+<H2>К СОЖАЛЕНИЮ НА ДАННЫЙ МОМЕНТ У НАСС В БАЗЕ НЕТ СЕРВИСОВ СПЕЦИАЛИЗИРУЮЩИХСЯ НА {{page.serch}}</H2>
 <p>ПОПРОБУЙТЕ ПОДОБРАТЬ ИЗ СПИСКА УНИВЕРСАЛЬНЫХ СЕРВИСОВ</p>
 
 
