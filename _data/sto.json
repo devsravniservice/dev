@@ -90,7 +90,7 @@
       "name_en" : "ABIKAR",
       "name_type" : "АБИКАР. технический центр",
       "status" : "Независимый",
-      "marki" : "Mercedes. Toyota. Lexus",
+      "marki" : [ "Mercedes","Toyota","Lexus"],
       "sity" : "Москва",
       "adress" : "Рябиновая. 55 ст27 - 1 этаж",
       "x" : "37.43263051",
