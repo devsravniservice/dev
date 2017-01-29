@@ -44,14 +44,14 @@ layout: default
  		 	    <ul>
  		 	    	{% assign chek = 0%}
 					{%for sto2 in site.data.sto %}
-						{% if sto2.marki contains {{marki}}  %} 	
-							{% if chek <= 10  %}		
+						{% if sto2.marki contains {{marki}} %} 	
+						{{%chek}}		
 			
 					<li>
 					{{sto2.name}}
-					 {% assign chek=chek+1%}
+					 {% assign chek = chek + 1 %}
 					</li>
-					{%endif%}{%endif%}
+					{%endif%}
 					{%endfor%}
 		
 			
