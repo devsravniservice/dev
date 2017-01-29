@@ -19,8 +19,12 @@ layout: default
 	  				<dt>Категория сервиса</dt> <dd>{{sto.status}}</dd>
 	  				<dt>Обслуживание марок</dt> <dd>
 	  				    {% for marki in sto.marki %}
-	  				     <a href="{{site.baseurl}}/service-{{marki}}">{{marki}}</a> </br>
-	  	 				   
+	  				    {% if sto.marki != "Все марки" %}	
+	  				    <a href="{{site.baseurl}}/service-{{marki}}">{{marki}}</a> </br>
+	  	 				{% else%}
+	  	 				Все марки
+	  	 				
+	  	 				{% endif%}   
 	  	   		 		{% endfor %}
 	  					 </dd>
 	  				
