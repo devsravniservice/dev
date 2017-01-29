@@ -45,11 +45,11 @@ layout: default
  		 	    	{% assign chek = 0%}
 					{%for sto2 in site.data.sto %}
 						{% if sto2.marki contains {{marki}} %}
-						{% increment chek %}
 						{{chek}}
 					<li>
 					{{sto2.name}}
-					 
+					 {% assign chek = chek + 1%}
+					 	{{chek}}
 					</li>
 					{%endif%}
 					{%endfor%}
