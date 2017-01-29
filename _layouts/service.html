@@ -38,23 +38,25 @@ layout: default
   	
   	</div>
 	<div class="col-md-4"> 	
+ 		 		{%for marki in sto.marki %}
  		 	<div>
- 		 		<h2><b>Другие сервисы {{sto.marki}}</b></h2>
+ 		 		<h2><b>Другие сервисы {{marki}}</b></h2>
  		 	    <ul>
- 		 	    {% for cto in site.data.sto %}
-					{% if cto.marki == marki %}
+ 		 	   
+					
 		
 		
 					<li>
-					 <a href="{{site.baseurl}}/service/{{cto.name_en}}-{{cto.id}}">{{cto.name}}</a>
+					{{sto.name}}
 					</li>
 
-				{% endif%}
-			{% endfor %}
+		
+			
+	
 			</ul>			
 			
 			</div>		
-		
+				{% endfor %}
  	</div>
 </div>
 <div class="row">
