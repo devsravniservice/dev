@@ -17,7 +17,11 @@ layout: default
 	  				<dt>Время работы</dt> <dd>{{sto.time}}</dd>
 	  				<dt>Работы в выходные</dt> <dd>{{sto.time2}}</dd>
 	  				<dt>Категория сервиса</dt> <dd>{{sto.status}}</dd>
-	  				<dt>Обслуживание марок</dt> <dd> {{sto.marki}</dd>
+	  				<dt>Обслуживание марок</dt> <dd>
+	  						    {% for marki in sto.marki %}
+	  					 {{marki}
+	  					 	{% endfor %}
+	  					 </dd>
 	  				
 	  				
 	  			</dl>				
