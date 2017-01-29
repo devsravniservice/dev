@@ -31,7 +31,7 @@ layout: default
 	  				
 	  			</dl>				
   			</div>		
-  	{% assign marki = {{sto.marki}}%}
+  
   			<!--вывод карты-->
   			<img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;pt={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=550,450&amp;spn=0.003,0.003"> 
 
@@ -40,16 +40,17 @@ layout: default
 	<div class="col-md-4"> 	
  		 		{%for marki in sto.marki %}
  		 	<div>
- 		 		<h2><b>Другие сервисы {{marki}}</b></h2>
+ 		 		<h2>Другие сервисы {{marki}}</h2>
  		 	    <ul>
  		 	   
-					
+					{%for sto2 in site.data.sto %}
 		
-		
+					{% if sto2.marki contains {{marki}}% 	
 					<li>
-					{{sto.name}}
+					{{sto2.name}}
 					</li>
-
+					{%endif%}
+					{%endfor%}
 		
 			
 	
