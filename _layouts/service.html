@@ -43,13 +43,13 @@ layout: default
  		 		<h2>Другие сервисы {{marki}}</h2>
  		 	    <ul>
  		 	    	{% assign chek=0%}
-					{%for sto2 in site.data.sto %}
+					{%for sto2 in site.data.sto limit:2%}
 						{% if sto2.marki contains {{marki}} %}
 						{{chek}}
 					<li>
 					{{sto2.name}}
 					 {% assign chek = 10 %}
-					 	{{chek}}
+					 
 					</li>
 					{%endif%}
 					{%endfor%}
