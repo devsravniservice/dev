@@ -44,15 +44,15 @@ layout: default
  		 	    <ul>
 					{%for sto2 in site.data.sto %}
 						{% if sto2.marki contains {{marki}} %}
-						 {% assign answers in sto2 %}	   	
+						 {% assign answers = sto2.name %}	   	
 						{%endif%}
 				
 					{%endfor%}
 					
-					{%for i in (1..10)%}
+					{% for i in (1..10) %}
 				
 					<li>
-				 	{{i}}: {{ answers.name[i] }} 
+				 	{{i}}: {{ answers[i] }} 
 					</li>
 					{%endfor%}
 		
