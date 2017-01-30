@@ -42,14 +42,14 @@ layout: default
  		 	<div>
  		 		<h2>Другие сервисы {{marki}} </h2>
  		 	    <ul>
- 		 	   		   	
-					{%for sto2 in site.data.sto and answers=1 %}
+ 		 	   		 {% assign answers=0 %}	    	
+					{%for sto2 in site.data.sto %}
 						{% if sto2.marki contains {{marki}} %}
 						
 					<li>
 					{{sto2.name}} 
+					 {{answers+1}}
 					 {{answers}}
-					 
 					</li>
 					{%endif%}
 					
