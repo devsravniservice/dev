@@ -42,8 +42,8 @@ layout: default
  		 	<div>
  		 		<h2>Другие сервисы {{marki}} </h2>
  		 	    <ul>
- 		 	   		 {% assign answers=0 %}	    	
-					{%for sto2 in site.data.sto %}
+ 		 	   		   	
+					{%for sto2 in site.data.sto and answers=1 %}
 						{% if sto2.marki contains {{marki}} %}
 						
 					<li>
