@@ -42,17 +42,17 @@ layout: default
  		 	<div>
  		 		<h2>Другие сервисы {{marki}}</h2>
  		 	    <ul>
- 		 	    	{% assign chek=0%}
-						{% assign chek1=1%} 		 	    	
 					{%for sto2 in site.data.sto %}
-						{% if sto2.marki contains {{marki}} %}
-						{{chek}}
+						{% assign marki = sto2.marki | contains {{marki}}  %}
+			
+						{%for name in sto2.name %}
+						
 					<li>
-					{{sto2.name}}
-					 {% assign chek = chek+chek1 %}
+					
+					 {{name}}
 					 
 					</li>
-					{%endif%}
+					{%endfor%}
 					{%endfor%}
 		
 			
