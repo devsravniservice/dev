@@ -48,11 +48,11 @@ layout: default
 						
 					<li>
 					{{sto2.name}} 
-					 {{answers+1}}
+			
 					 {{answers}}
 					</li>
 					{%endif%}
-					
+					{% assign answers=answers + 1 %}	 
 		
 					{%endfor%}
 			</ul>			
