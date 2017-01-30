@@ -42,15 +42,15 @@ layout: default
  		 	<div>
  		 		<h2>Другие сервисы {{marki}} </h2>
  		 	    <ul>
-					{% assign var = 10 %}
+					{% assign var_ini = 10 %}
 					{%for sto2 in site.data.sto %}
 						{% if sto2.marki contains {{marki}} %}
-						 {% assign answers = sto2.name %}
+						
 					 	
-					 			<li>
-				 		{{var}} - {{ answers }} 
+					 	<li>
+				 	{{sto2.name}}
 						</li>
-					 		 {% increment var %}
+					 		
 					
 					 		{%endif%}
 					 	{%endfor%}
