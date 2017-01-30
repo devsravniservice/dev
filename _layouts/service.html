@@ -44,7 +44,7 @@ layout: default
  		 	    <ul>
  		 	   		 	    	
 					{%for sto2 in site.data.sto %}
-						{% if sto2.marki contains {{marki}} %}
+						{% if sto2.marki contains {{marki}} and limit:10 %}
 						
 					<li>
 					{{sto2.name}}
