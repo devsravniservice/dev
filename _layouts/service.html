@@ -44,22 +44,16 @@ layout: default
  		 	    <ul>
 					{% assign var = 10 %}
 					{%for sto2 in site.data.sto %}
-						{% if sto2.marki contains {{marki}} and var <= 10%}
+						{% if sto2.marki contains {{marki}} %}
 						 {% assign answers = sto2.name %}
 					 	
 					 			<li>
-				 		{{i}}: {{ answers }} 
+				 		{{var}} - {{ answers }} 
 						</li>
 					 		 {% increment var %}
 					
 					 		{%endif%}
-					 	
-				
-						
-						 
-					
-				
-		{%endfor%}
+					 	{%endfor%}
 		
 		
 					
