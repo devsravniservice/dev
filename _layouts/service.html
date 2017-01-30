@@ -42,17 +42,16 @@ layout: default
  		 	<div>
  		 		<h2>Другие сервисы {{marki}}</h2>
  		 	    <ul>
+ 		 	   		 	    	
 					{%for sto2 in site.data.sto %}
-						{% assign marki = sto2.marki | contains {{marki}}  %}
-			
-						{%for name in sto2.name %}
+						{% if sto2.marki contains {{marki}} %}
 						
 					<li>
-					
-					 {{name}}
+					{{sto2.name}}
+					 
 					 
 					</li>
-					{%endfor%}
+					{%endif%}
 					{%endfor%}
 		
 			
