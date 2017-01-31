@@ -44,18 +44,17 @@ layout: default
  		 	    <ul>
 					{%for sto2 in site.data.sto %}
 						{% if sto2.marki contains {{marki}} %}
-							{% assign sto_sort = sto2 %}
+						
+						<il>	{{ sto2.name }}  </il>
+						
 				 		{% endif %}
 					{% endfor %}
 						
-						{% for name in sto_sort.name %}
-						
-						<il>	{{ name }}  </il>
+					
 						
 			
-				
-						{% endfor %}
-		
+						
+			
 					
 			</ul>			
 			
