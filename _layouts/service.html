@@ -45,10 +45,11 @@ layout: default
 					{% assign var_ini = 10 %}
 					{%for sto2 in site.data.sto %}
 						{% if sto2.marki contains {{marki}} %}
-						
+							{% assign sto_sort= sto2 %}
 					 	
 					 	<li>
-				 	{{sto2.name}}
+				 	{{sto_sort.name}} 
+				 	
 						</li>
 					 		
 					
