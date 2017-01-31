@@ -54,7 +54,8 @@ layout: default
 						{% for i in (1..10) %}	
 				 		<li>
 				 				{{ i }}
-				 				{{ sto_sort[i] }} 
+				 				{% assign sortN = sto_sort[{{ i }}]  %}
+				 				{{ sortN.name }} 
 				 			
 						</li>
 					 		{% endfor %}		
