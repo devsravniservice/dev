@@ -56,16 +56,10 @@ layout: default
 					{% endfor %}
 						
 			{% for i in (1..5 )%}
-			<li> 	{{ sto_sort.name }}  </li>		
+			<li> 	{{ sto_sort[i].name }}  </li>		
 
 			{% endfor %}
-			--------------------
-			{% for name in sto_sort.name %}
-			<li> 	{{ name }}  </li>		
-			--------------------------
-					{{ name[1] }} , 	{{ name[2] }} 
-			{% endfor %}
-			
+
 			
 			</ul>			
 			
