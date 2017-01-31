@@ -47,12 +47,14 @@ layout: default
 						{% if sto2.marki contains {{marki}} %}
 							{% assign sto_sort= sto2 %}
 					 	
-					 	<li>
-				 				
+					 	
+				 			{%for i in (1..10)%}	
+				 		<li>
+				 				{{i}}
 				 				{{sto_sort.name}} 
 				 					{{sto_sort.id}} 
 						</li>
-					 		
+					 		{%endfor%}
 					
 					 		{%endif%}
 					 	{%endfor%}
