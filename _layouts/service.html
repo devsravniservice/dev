@@ -42,23 +42,22 @@ layout: default
  		 	<div>
  		 		<h2>Другие сервисы {{marki}} </h2>
  		 	    <ul>
-					{% assign var_ini = 10 %}
 					{%for sto2 in site.data.sto %}
 						{% if sto2.marki contains {{marki}} %}
 							{% assign sto_sort= sto2 %}
 					 	
 					 	
-				 			{%for i in (1..10)%}	
+				 	
+				 		{% endif %}
+					{% endfor %}
+						
+						{% for i in (1..10) %}	
 				 		<li>
-				 				{{i}}
-				 				{{sto_sort.name}} 
-				 				{{sto_sort.id}} 
+				 				{{ i }}
+				 				{{ sto_sort.name }} 
+				 				{{ sto_sort.id }} 
 						</li>
-					 		{%endfor%}
-					
-					 		{%endif%}
-					 	{%endfor%}
-		
+					 		{% endfor %}		
 		
 					
 			</ul>			
