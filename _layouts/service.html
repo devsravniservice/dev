@@ -55,10 +55,17 @@ layout: default
 
 					{% endfor %}
 						
-			{% for sto_viver in sto_sort %}
-			<li> 	{{ sto_viver.name }}  </li>		
+			{% for i in (1..5 )%}
+			<li> 	{{ sto_sort.name }}  </li>		
 
 			{% endfor %}
+			--------------------
+			{% for name in sto_sort.name %}
+			<li> 	{{ name }}  </li>		
+			--------------------------
+					{{ name[1] }} , 	{{ name[2] }} 
+			{% endfor %}
+			
 			
 			</ul>			
 			
