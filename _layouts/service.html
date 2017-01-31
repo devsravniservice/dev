@@ -48,7 +48,7 @@ layout: default
 				 		{% endif %}
 					{% endfor %}
 						
-						{% assign n = (1..10) %}
+						{% assign n = 1 %}
 						{% for name in sto_sort.name %}
 						
 						<il>	{{ name }}  </il>
@@ -56,6 +56,7 @@ layout: default
 						{% n = n + 1 %}
 					
 						{{ n }}
+						
 						{% endfor %}
 		
 					
