@@ -46,19 +46,23 @@ layout: default
 						{% if sto2.marki contains {{marki}} %}
 						
 							{% assign sto_sort = sto2 %}
-						
+							
 				 		{% endif %}
-					{% endfor %}
-						
-				
+
 				<li> 	{{ sto_sort[0].name }}  </li>		
 				<li> 	{{ sto_sort[1].name }}  </li>	
 				<li> 	{{ sto_sort[2].name }}  </li>		
 				<li> 	{{ sto_sort[3].name }}  </li>	
 				<li> 	{{ sto_sort[4].name }}  </li>	
 				
-				
-				
+
+
+
+
+
+					{% endfor %}
+						
+	
 				
 				
 			</ul>			
