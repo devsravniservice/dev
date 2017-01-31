@@ -42,11 +42,11 @@ layout: default
  		 	<div>
  		 		<h2>Другие сервисы {{marki}} </h2>
  		 	    <ul>
-					{% assign num = (1..6)%}
+					
 					{% for sto2 in site.data.sto %}
-       				 {% if sto2.marki contains {{marki}} and num < 6 %}					
+       				 {% if sto2.marki contains {{marki}}  %}					
 	    
-            		<li> 	{{num}}	{{ sto2.name }} </li>
+            		<li> 		{{ sto2.name }} </li>
         	
        				 {% endif %}
        			
