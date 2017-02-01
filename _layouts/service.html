@@ -40,49 +40,49 @@ layout: default
 	<div class="col-md-4"> 	
  		 		{%for marki in sto.marki %}
  		 	<div>
- 		 		<h2>Другие сервисы {{marki}} </h2>
+ 		 		<h3>Другие сервисы {{marki}} </h3>
  		 	    <ul>
 					{% assign num = 1%}
 					{% for sto2 in site.data.sto %}
        				 {% if sto2.marki contains {{marki}}  %}					
 	            			{% if num == 10 %}
-							<li>	{{sto2.name}} </li>
+							<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 11 %}
 									{% endif %}
 	            			{% if num == 9 %}
-							<li>	{{sto2.name}} </li>
+							<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 10 %}
 									{% endif %}
 	            			{% if num == 8 %}
-						<li>		{{sto2.name}} </li>
+						<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 9 %}
 									{% endif %}
 	            			{% if num == 7 %}
-							<li>	{{sto2.name}} </li>
+						<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 8 %}
 									{% endif %}
 	            			{% if num == 6 %}
-							<li>	{{sto2.name}} </li>
+							<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 7 %}
 									{% endif %}
 	            			{% if num == 5 %}
-							<li>	{{sto2.name}} </li>
+							<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 6 %}
 									{% endif %}
 	            			{% if num == 4 %}
-							<li>	{{sto2.name}} </li>
+							<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 5 %}
 								{% endif %}	
 	            			{% if num == 3 %}
-							<li>	{{sto2.name}} </li>
+							<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 4 %}
 							{% endif %}
 							{% if num == 2 %}
-							<li>	{{sto2.name}} </li>
+						<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 3 %}
 							{% endif %}
 								{% if num == 1%}
-							<li>	{{sto2.name}} </li>
+							<li><a href="{{site.baseurl}}/service/{{sto2.name_en}}-{{sto2.id}}">{{sto2.name}}</a></li>
 								{% assign num = 2 %}
 							{% endif %}
     	      		{% endif %}
