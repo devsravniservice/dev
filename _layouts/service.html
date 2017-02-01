@@ -42,20 +42,26 @@ layout: default
  		 	<div>
  		 		<h2>Другие сервисы {{marki}} </h2>
  		 	    <ul>
-					
+					{% assign num = 1%}
 					{% for sto2 in site.data.sto %}
        				 {% if sto2.marki contains {{marki}}  %}					
 	    
-            				{% assign sto_sort = sto2 %}
-        	
-       				 {% endif %}
-       			
-       				 
-			{% endfor %}
-				{% for name in sto_sort.name %}
-				<li>	{{ name }} </li>
+            			
+							{% if num == 1%}
+								{{sto2.name}}
+								{% assign num = 2 %}
+							{% endif %}	
+							{% if num == 2 %}
+								{{sto2.name}}
+								{% assign num = 3 %}
+							{% endif %}
+							{% if num == 3 %}
+								{{sto2.name}}
+								{% assign num = 4 %}
+							{% endif %}
+    	      		{% endif %}
+       			{% endfor %}
 			
-				{% endfor %}
 
 			</ul>			
 			
