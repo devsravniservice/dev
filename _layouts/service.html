@@ -45,19 +45,17 @@ layout: default
 					{% assign num = 1%}
 					{% for sto2 in site.data.sto %}
        				 {% if sto2.marki contains {{marki}}  %}					
-	    
-            			
-							{% if num == 1%}
+	            			{% if num == 3 %}
 								{{sto2.name}}
-								{% assign num = 2 %}
-							{% endif %}	
+								{% assign num = 4 %}
+							{% endif %}
 							{% if num == 2 %}
 								{{sto2.name}}
 								{% assign num = 3 %}
 							{% endif %}
-							{% if num == 3 %}
+								{% if num == 1%}
 								{{sto2.name}}
-								{% assign num = 4 %}
+								{% assign num = 2 %}
 							{% endif %}
     	      		{% endif %}
        			{% endfor %}
