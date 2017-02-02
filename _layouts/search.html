@@ -10,11 +10,11 @@ layout: default
 <p>Марки: 
  {% for marki in sto.marki %}
 {% if sto.marki != "Все марки" %}
-<a href="{{site.baseurl}}/service-{{marki}}">{{marki}}</a> |
+| <a href="{{site.baseurl}}/service-{{marki}}">{{marki}}</a> 
 {% else%}
-Все марки
+| Все марки 
 {% endif%}   
-{% endfor %}
+{% endfor %} |
 </p>
 <!--img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=200,200&amp;spn=0.002,0.002"--> 
 <p>--------------------------------------------------------------------------------------------</p>
