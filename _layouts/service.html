@@ -20,9 +20,9 @@ layout: default
 	  				<dt>Обслуживание марок</dt> <dd>
 	  				    {% for marki in sto.marki %}
 	  				    {% if sto.marki != "Все марки" %}	
-	  				    |<a href="{{site.baseurl}}/service-{{marki}}">{{marki}}</a> 
+	  				   	 | <a href="{{site.baseurl}}/service-{{marki}}">{{marki}}</a> 
 	  	 				{% else%}
-	  	 				Все марки
+	  	 			   | Все марки |
 	  	 				
 	  	 				{% endif %}   
 	  	   		 		{% endfor %}
