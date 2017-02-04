@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+{% for sto in site.data.sto %}
+{% if sto.id == page.id %}
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -32,9 +35,7 @@
         </div>
       </div>
     </nav>
-
-{% for sto in site.data.sto %}
-{% if sto.id == page.id %}
+<div class="container">
 <div class="row">
     <div class="col-md-8">
   	<h1>Автосервис {{sto.name}}</h1>	
@@ -163,7 +164,7 @@
 
 {% endif%}
 {% endfor %}
-    
+</div> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
   </body>
