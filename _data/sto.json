@@ -1258,7 +1258,7 @@
         "Seat",
         "BMW",
         "Mercedes",
-        "Porcsche",
+        "Porsche",
         "LandRover"
       ],
       "sity" : "Москва",
@@ -1704,7 +1704,7 @@
         "Mitsubishi",
         "Nissan",
         "Subaru",
-        "Кia",
+        "Kia",
         "Hyundai",
         "Ford",
         "Chery",
@@ -1875,7 +1875,7 @@
       "marki" : [
         "SsangYong",
         "Hyundai",
-        "KIA"
+        "Kia"
       ],
       "sity" : "Москва",
       "adress" : "Юрловский проезд. вл2а",
@@ -2007,7 +2007,7 @@
         "BMW",
         "Jaguar",
         "Lexus",
-        "MINI",
+        "Mini",
         "Hyundai",
         "Kia"
       ],
@@ -2029,7 +2029,7 @@
       "status" : "Независимый",
       "marki" : [
         "BMW",
-        "MINI"
+        "Mini"
       ],
       "sity" : "Люберцы (Люберецкий район)",
       "adress" : "Инициативная. 38а",
@@ -6988,7 +6988,7 @@
       "marki" : [
         "Mercedes",
         "BMW",
-        "MINI"
+        "Mini"
       ],
       "sity" : "Москва",
       "adress" : "Автозаводская. 20 ст1",
@@ -7829,7 +7829,7 @@
       "status" : "Независимый",
       "marki" : [
         "BMW",
-        "MINI"
+        "Mini"
       ],
       "sity" : "Москва",
       "adress" : "Строительный проезд. 2",
@@ -9223,7 +9223,7 @@
       "status" : "Независимый",
       "marki" : "Все марки",
       "sity" : "Ивантеевка",
-      "adress" : "За��ечная. 1а",
+      "adress" : "Заречная. 1а",
       "x" : "37.92617708",
       "y" : "55.97058108",
       "telefon" : "(496) 536-25-90. 8-963-633-66-92",
@@ -14036,7 +14036,7 @@
       "status" : "Независимый",
       "marki" : [
         "BMW",
-        "MINI"
+        "Mini"
       ],
       "sity" : "Москва",
       "adress" : "Головинское шоссе. 11",
@@ -16406,7 +16406,7 @@
       "marki" : [
         "BMW",
         "Mercedes",
-        "MINI"
+        "Mini"
       ],
       "sity" : "Москва",
       "adress" : "Дмитрия Ульянова. 31 ст1",
@@ -18150,7 +18150,7 @@
       "marki" : [
         "Daewoo",
         "Hyundai",
-        "KIA",
+        "Kia",
         "Chevrolet"
       ],
       "sity" : "Москва",
@@ -21308,7 +21308,7 @@
       "status" : "Независимый",
       "marki" : [
         "Nissan",
-        "Renaulti"
+        "Renault"
       ],
       "sity" : "Лобня",
       "adress" : "Катюшки. 43Б",
@@ -22461,7 +22461,7 @@
       "status" : "Независимый",
       "marki" : [
         "Peugeot",
-        "Ciroen",
+        "Citroen",
         "Ford",
         "Renault"
       ],
@@ -35451,7 +35451,7 @@
       "name_en" : "AVILON",
       "name_type" : "АВИЛОН",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "Москва",
       "adress" : "Волгоградский пр-т. д. 41. стр. 1",
       "x" : "37.714869",
@@ -35468,7 +35468,7 @@
       "name_en" : "AVTODOM_na_Zorge",
       "name_type" : "АВТОDОМ на Зорге",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "Москва",
       "adress" : "ул. Зорге.17",
       "x" : "37.508283",
@@ -35485,7 +35485,7 @@
       "name_en" : "AVTODOM_na_MKAD",
       "name_type" : "АВТОDОМ на МКАД",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "Москва",
       "adress" : "51км МКАД",
       "x" : "37.412846",
@@ -35502,7 +35502,7 @@
       "name_en" : "Avto-Avangard",
       "name_type" : "Авто-Авангард",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "МО. Красногорский район",
       "adress" : "Новорижское шоссе 9 км от МКАД",
       "x" : "37.257537",
@@ -35519,7 +35519,7 @@
       "name_en" : "AVTOPORT_MINI",
       "name_type" : "АВТОПОРТ MINI",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "Москва",
       "adress" : "Пятницкое шоссе. 6 км",
       "x" : "37.346084",
@@ -35536,7 +35536,7 @@
       "name_en" : "ADVANS-AVTO",
       "name_type" : "АДВАНС-АВТО",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "Москва",
       "adress" : "Киевское шоссе. 5 км от МКАД",
       "x" : "37.39391",
@@ -35553,7 +35553,7 @@
       "name_en" : "BORISHOF_29_km_MKAD",
       "name_type" : "БОРИСХОФ 29 км МКАД",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "Москва",
       "adress" : "29 км МКАД",
       "x" : "37.672819",
@@ -35570,7 +35570,7 @@
       "name_en" : "BORISHOF_Jaroslavskoe_sh",
       "name_type" : "БОРИСХОФ  Ярославское ш.",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "Москва",
       "adress" : "Ярославское ш. д.36",
       "x" : "37.69728",
@@ -35587,7 +35587,7 @@
       "name_en" : "BORISHOF_Gorkovskoe_sh",
       "name_type" : "БОРИСХОФ  Горьковское ш.",
       "status" : "Официальный",
-      "marki" : "MINI",
+      "marki" : "Mini",
       "sity" : "Москва",
       "adress" : "Горьковское ш. 2 км от МКАД",
       "x" : "37.879323",
