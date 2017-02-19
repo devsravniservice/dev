@@ -2,12 +2,12 @@
 
 {% for sto in site.data.sto %}
 {% if sto.id == page.id %}
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Автосервис {{sto.name}} - {{sto.adress}}">
+    <meta name="description" content="Автосервис {{sto.name}} - {{sto.adress}} ">
 	<title>Автосервис {{sto.name}}</title>
     <!-- Bootstrap core CSS -->
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
@@ -88,20 +88,14 @@
 
 
 <div>
-	<div>
+		<div>
 				<h2>Отзывы о {{sto.name}}</h2>
 				<div>
-				  Отзывово пока нет
+				{% include commint.html %}
 				</div>
 		</div>
 </div>
-  
-  
-  
-  
-  
-  
-  	</div>	
+  </div>	
   	<div class="col-md-4"> 	
  		 		{%for marki in sto.marki %}
  		 	<div>
@@ -165,8 +159,11 @@
 {% endif%}
 {% endfor %}
 </div> 
+
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     {% include metrika.html %}
+    
   </body>
 </html>
