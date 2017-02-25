@@ -1,5 +1,5 @@
 
-<!--{% assign answers = 0%}-->
+{% assign answers = 0%}
 {% for sto in site.data.sto %}
     {% if sto.marki contains page.search %}
         <div class="row">
@@ -16,12 +16,12 @@
         </p>
         <!--img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=200,200&amp;spn=0.002,0.002"-->
         <p>--------------------------------------------------------------------------------------------</p>
-        <!--{% assign answers=answers+1 %}-->
+        {% assign answers=answers+1 %}
     </div>
     {% endif %}
 {% endfor %} 
 
-<!--{% if answers == 1 %}-->
+
     <div class="row">
     <H2>Универсальные сервисы обслужиывающие {{page.search}}</H2>
     </div>
@@ -36,7 +36,7 @@
             </div>
         {% endif %}
     {% endfor %}
-<!--{% endif %}-->
+
 
 {% if answers == 0 %}
     <div class="row">
