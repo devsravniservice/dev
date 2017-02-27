@@ -12,4 +12,4 @@ layout: default
 
 ##Итак, начнем с выбора автомобиля.
 
-<a class="navbar-brand" href="/article/Kakoj_avtomobil_kupit">Какой автомобиль купить</a>
+<a class="navbar-brand" href="{{site.baseurl}}/article/Kakoj_avtomobil_kupit">Какой автомобиль купить</a>
