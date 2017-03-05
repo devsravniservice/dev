@@ -17,10 +17,11 @@
         <p>Адресс: {{sto.adress}}</p>
         <p>Марки: 
         {% for marki in sto.marki %}
+        | 
             {% if sto.marki != "Все марки" %}
                 <a href="{{site.baseurl}}/service-{{marki}}">{{marki}}</a> |
             {% else%}
-                Все марки
+                Все марки |
             {% endif%}   
         {% endfor %}
         </p>
