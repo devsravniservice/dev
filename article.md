@@ -13,24 +13,12 @@ layout: default
 
 ## Итак, начнем с выбора автомобиля.
 
-<a class="navbar-brand" href="{{site.baseurl}}/article/Kakoj_avtomobil_kupit">Какой автомобиль купить</a> 
-
-
-<a class="navbar-brand" href="{{site.baseurl}}/article/Na_chem_mozhno_sjekonomit_pri_pokupke_mashiny">На чем можно сэкономить при покупке машины?</a>
-
-
-<a class="navbar-brand" href="{{site.baseurl}}/article/Kak_snizit_rashody_po_kreditu">Как снизить расходы по кредиту?</a>
-
-
-<a class="navbar-brand" href="{{site.baseurl}}/article/Kak_sjekonomit_na_strahovke_avtomobilja">Как сэкономить на страховке автомобиля?</a>
-
-
-<a class="navbar-brand" href="{{site.baseurl}}/article/Кachestvennoe_tehnicheskoe_obsluzhivanie">Качественное техническое обслуживание</a>
-
-
-<a class="navbar-brand" href="{{site.baseurl}}/article/Kak_vybrat_horoshij_avtoservis">Как выбрать хороший автосервис?</a>
-
-
-<a class="navbar-brand" href="{{site.baseurl}}/article/Kak_jekonomit_toplivo">Как экономить топливо?</a>
+-  <a class="navbar-brand" href="{{site.baseurl}}/article/Kakoj_avtomobil_kupit">Какой автомобиль купить</a> 
+-  <a class="navbar-brand" href="{{site.baseurl}}/article/Na_chem_mozhno_sjekonomit_pri_pokupke_mashiny">На чем можно сэкономить при покупке машины?</a>
+-  <a class="navbar-brand" href="{{site.baseurl}}/article/Kak_snizit_rashody_po_kreditu">Как снизить расходы по кредиту?</a>
+-  <a class="navbar-brand" href="{{site.baseurl}}/article/Kak_sjekonomit_na_strahovke_avtomobilja">Как сэкономить на страховке автомобиля?</a>
+-  <a class="navbar-brand" href="{{site.baseurl}}/article/Кachestvennoe_tehnicheskoe_obsluzhivanie">Качественное техническое обслуживание</a>
+-  <a class="navbar-brand" href="{{site.baseurl}}/article/Kak_vybrat_horoshij_avtoservis">Как выбрать хороший автосервис?</a>
+-  <a class="navbar-brand" href="{{site.baseurl}}/article/Kak_jekonomit_toplivo">Как экономить топливо?</a>
 
 
