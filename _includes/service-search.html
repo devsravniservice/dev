@@ -7,7 +7,7 @@
         {% if answers == 0 %}
          <div class="row">
              <h2>
-                 Мы нашли следующие сервисы обслуживающие {{page.search}} </br> также вы можете подобрать сервис из числа универсальных: <a href="{{site.baseurl}}/service-all">Здесь >></a>
+                 Мы нашли следующие сервисы обслуживающие {{page.search}} 
              </h2>
              
          </div>
@@ -30,6 +30,9 @@
         {% assign answers=answers+1 %}
     </div>
     {% endif %}
+<div>
+также вы можете подобрать сервис из числа универсальных: <a href="{{site.baseurl}}/service-all">Здесь >></a>
+</div>
 {% endfor %} 
 
 {% if answers == 0 %}
