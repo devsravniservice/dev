@@ -30,11 +30,13 @@
         {% assign answers=answers+1 %}
     </div>
     {% endif %}
-<div>
-также вы можете подобрать сервис из числа универсальных: <a href="{{site.baseurl}}/service-all">Здесь >></a>
-</div>
-{% endfor %} 
 
+{% endfor %} 
+{% if answers != 0 %}
+<div>
+Также вы можете подобрать сервис из числа универсальных: <a href="{{site.baseurl}}/service-all">Здесь >></a>
+</div>
+{%endif%}
 {% if answers == 0 %}
     <div class="row">
     <H2>Сервисы {{page.search}} не найдены</H2>
