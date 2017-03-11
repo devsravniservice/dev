@@ -13,7 +13,7 @@ layout: default
 
 ## Итак, начнем с выбора автомобиля.
 
-<a class="navbar-brand" href="{{site.baseurl}}/article/Kakoj_avtomobil_kupit">Какой автомобиль купить</a>
+<a class="navbar-brand" href="{{site.baseurl}}/article/Kakoj_avtomobil_kupit">Какой автомобиль купить</a> 
 
 
 <a class="navbar-brand" href="{{site.baseurl}}/article/Na_chem_mozhno_sjekonomit_pri_pokupke_mashiny">На чем можно сэкономить при покупке машины?</a>
