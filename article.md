@@ -12,12 +12,12 @@ layout: default
 Еще до покупки машины Вы должны по крайней мере выбрать марку автомобиля, определиться с его комплектацией и, если на покупку не хватает денег – решить где и на каких условиях кредитоваться.
 
 ## Итак, начнем с выбора автомобиля.
-
+<p>
 <a class="navbar-brand" href="{{site.baseurl}}/article/Kakoj_avtomobil_kupit">Какой автомобиль купить</a>
-
-
+</p>
+<p>
 -<a class="navbar-brand" href="{{site.baseurl}}/article/Na_chem_mozhno_sjekonomit_pri_pokupke_mashiny">На чем можно сэкономить при покупке машины?</a>
-
+</p>
 
 -<a class="navbar-brand" href="{{site.baseurl}}/article/Kak_snizit_rashody_po_kreditu">Как снизить расходы по кредиту?</a>
 
