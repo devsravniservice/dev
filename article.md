@@ -16,7 +16,7 @@ layout: default
 ## Полезные статьи:
 
 
-<a href="{{site.baseurl}}/article/Kakoj_avtomobil_kupit">Какой автомобиль купить</a>
+<a href="{{site.baseurl}}/article/Kakoj_avtomobil_kupit">Какой автомобиль купить?</a>
 
 <a href="{{site.baseurl}}/article/Na_chem_mozhno_sjekonomit_pri_pokupke_mashiny">На чем можно сэкономить при покупке машины?</a>
 
