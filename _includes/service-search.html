@@ -6,10 +6,11 @@
         
         {% if answers == 0 %}
          <div class="row">
+             <div class="card">
              <h2>
-                 Мы нашли следующие сервисы обслуживающие {{page.search}} 
+                 Автосервисы и СТО специализирующиеся на марке {{page.search}}: 
              </h2>
-             
+         </div>     
          </div>
         {% endif %}
         <div class="row">
@@ -35,25 +36,26 @@
 
 {% if answers == 0 %}
     <div class="row">
+          <div class="card">
     <H2>Сервисы {{page.search}} не найдены</H2>
     <p>попробуйте подобрать универсальный сервис</p>
-    </div>
+    </div></div>
     {% for sto in site.data.sto %}
         {% if sto.marki == "Все марки"%}
             <div class="row">
+                  <div class="card">
             <h2>Автосервис: <a href="{{site.baseurl}}/service/{{sto.name_en}}-{{sto.id}}">{{sto.name}}</a></h2>
             <p>Адресс: {{sto.adress}}</p>
             <p>Марки: {{sto.marki}}</p>
-            <!--img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=200,200&amp;spn=0.002,0.002"--> 
-            <p>--------------------------------------------------------------------------------------------</p>
-            </div>
+            <a class="btn btn-primary" href="{{site.baseurl}}/service/{{sto.name_en}}-{{sto.id}}" role="button">Подробнее ></a>
+            </div></div>
         {% endif %}
     {% endfor %}
     
 {% endif %}
 
 
-<div>
+<div class="card">
     <h2>
         Tакже вы можете подобрать сервис из числа универсальных: <a href="{{site.baseurl}}/service-all">Здесь >></a>
     </h2>
