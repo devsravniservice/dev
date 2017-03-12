@@ -26,8 +26,7 @@
             {% endif%}   
         {% endfor %}
         </p>
-        <!--img alt="" locale="ru" src="//static-maps.yandex.ru/1.x/?ll={{sto.x}},{{sto.y}}&amp;z=8&amp;l=map&amp;size=200,200&amp;spn=0.002,0.002"-->
-        <p>--------------------------------------------------------------------------------------------</p>
+        <a class="btn btn-sm" href="{{site.baseurl}}/service/{{sto.name_en}}-{{sto.id}}">Подробнее ></a>
         {% assign answers=answers+1 %}
     </div>    </div>
     {% endif %}
