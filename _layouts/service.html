@@ -147,12 +147,15 @@
     	      		{% endif %}
     	      		 
        			{% endfor %}
-		<b>	<a href="{{site.baseurl}}/service-{{marki}}">Все сервисы {{marki}}</a> </b> 
-
+	<b> {% if {{marki}} != "Все марки" %}	
+		<a href="{{site.baseurl}}/service-{{marki}}">Все сервисы {{marki}}</a> </b> 
+				{% endif %}	
 			</ul>			
 			
 			</div>		
 				{% endfor %}
+			<div>
+			<h2>	<a href="{{site.baseurl}}/article">Полезные статьи</a> </h2> </div>
  	</div>
 </div>
 
